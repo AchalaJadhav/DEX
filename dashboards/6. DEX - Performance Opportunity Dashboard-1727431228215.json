@@ -1,0 +1,2372 @@
+{
+  "__inputs": [
+    {
+      "name": "DS_PROMETHEUS",
+      "label": "prometheus",
+      "description": "",
+      "type": "datasource",
+      "pluginId": "prometheus",
+      "pluginName": "Prometheus"
+    }
+  ],
+  "__elements": {},
+  "__requires": [
+    {
+      "type": "grafana",
+      "id": "grafana",
+      "name": "Grafana",
+      "version": "11.1.3"
+    },
+    {
+      "type": "datasource",
+      "id": "prometheus",
+      "name": "Prometheus",
+      "version": "1.0.0"
+    },
+    {
+      "type": "panel",
+      "id": "stat",
+      "name": "Stat",
+      "version": ""
+    },
+    {
+      "type": "panel",
+      "id": "table",
+      "name": "Table",
+      "version": ""
+    },
+    {
+      "type": "panel",
+      "id": "text",
+      "name": "Text",
+      "version": ""
+    }
+  ],
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "panels": [
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 6,
+        "x": 0,
+        "y": 0
+      },
+      "id": 3,
+      "links": [
+        {
+          "targetBlank": true,
+          "title": "DEX - Performance Opportunity Dashboard",
+          "url": "http://localhost:8084/goto/p778St3IR?orgId=1"
+        }
+      ],
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "percentChangeColorMode": "standard",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showPercentChange": false,
+        "textMode": "auto",
+        "wideLayout": true
+      },
+      "pluginVersion": "11.1.3",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "disableTextWrap": false,
+          "editorMode": "code",
+          "expr": "count(count by (title) (analyzerperfoppo))\r\n",
+          "fullMetaSearch": false,
+          "hide": false,
+          "includeNullMetadata": true,
+          "instant": false,
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A",
+          "useBackend": false
+        }
+      ],
+      "title": "Performance Opportunity Count",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 18,
+        "x": 6,
+        "y": 0
+      },
+      "id": 4,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<span style=\"font-size:40px;\">Performance Group: Opportunity</span>\r\n",
+        "mode": "html"
+      },
+      "pluginVersion": "11.1.3",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "auto",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Estimated Savings (ms) (uniqueValues)"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 174
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Opportunity Audits"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 271
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 15,
+        "w": 12,
+        "x": 0,
+        "y": 6
+      },
+      "id": 5,
+      "options": {
+        "cellHeight": "sm",
+        "footer": {
+          "countRows": false,
+          "fields": [],
+          "reducer": [
+            "sum"
+          ],
+          "show": true
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Count (count)"
+          }
+        ]
+      },
+      "pluginVersion": "11.1.3",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "disableTextWrap": false,
+          "editorMode": "builder",
+          "expr": "count by(title, overallSavingsMs) (analyzerperfoppo)",
+          "format": "table",
+          "fullMetaSearch": false,
+          "includeNullMetadata": true,
+          "instant": false,
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A",
+          "useBackend": false
+        }
+      ],
+      "title": "Analyzer - Opportunity Audits",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "__name__": true,
+              "applicationName": true,
+              "buildId": true,
+              "description": true,
+              "displayValue": true,
+              "fetchTime": true,
+              "instance": true,
+              "job": true,
+              "lhId": true,
+              "numericValue": true,
+              "pageName": true,
+              "path": true,
+              "requestedUrl": true,
+              "responseTime": true,
+              "selector": true,
+              "totalBytes": true,
+              "type": true,
+              "url": true,
+              "wastedBytes": true,
+              "wastedMs": true,
+              "wastedPercent": true
+            },
+            "includeByName": {},
+            "indexByName": {
+              "Time": 3,
+              "Value": 2,
+              "__name__": 4,
+              "applicationName": 5,
+              "buildId": 6,
+              "description": 7,
+              "displayValue": 8,
+              "fetchTime": 9,
+              "instance": 10,
+              "job": 11,
+              "lhId": 12,
+              "numericValue": 13,
+              "overallSavingsMs": 1,
+              "pageName": 14,
+              "path": 15,
+              "requestedUrl": 16,
+              "responseTime": 17,
+              "selector": 18,
+              "title": 0,
+              "totalBytes": 19,
+              "type": 20,
+              "url": 21,
+              "wastedBytes": 22,
+              "wastedMs": 23,
+              "wastedPercent": 24
+            },
+            "renameByName": {
+              "Value": "Count",
+              "overallSavingsMs": "Estimated Savings (ms)",
+              "title": "Opportunity Audits"
+            }
+          }
+        },
+        {
+          "id": "groupBy",
+          "options": {
+            "fields": {
+              "Count": {
+                "aggregations": [
+                  "count"
+                ],
+                "operation": "aggregate"
+              },
+              "Estimated Savings (ms)": {
+                "aggregations": [
+                  "uniqueValues"
+                ],
+                "operation": "aggregate"
+              },
+              "Opportunity Audits": {
+                "aggregations": [],
+                "operation": "groupby"
+              }
+            }
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 15,
+        "w": 12,
+        "x": 12,
+        "y": 6
+      },
+      "id": 2,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "# Performance: Opportunity Audits #\n\n*Displays Opportunity Audit with their total count and estimated savings in milliseconds. If the ms goes from 0 - 0.45ms, then that audit needs improvement. But if the audit's saving goes beyond 0.45 ms, then the score is poor and it needs to be improved so as to better your performance.*\n\n![Image](data:image/png;base64,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)\n\n\n*Opportunity Audits are:*\n- *Uses HTTP/2*\n- *Eliminate render-blocking resources*\n- *Enable text compression*\n- *Defer offscreen images*\n- *Minify CSS*\n- *Minify JavaScript*\n- *Serve images in modern formats*\n- *Remove unused CSS*\n- *Remove unused JavaScript*\n- *Reduce server response times (TTFB)*\n\n\n\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.1.3",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 21
+      },
+      "id": 6,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### Opportunity: Uses HTTP/2 audit  ###\n*Report lists all resources not served over HTTP/2 and gathers all resources requested by the page and checks the HTTP protocol version of each. There are some cases where non-HTTP/2 requests will be ignored in the audit results.*\n\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.1.3",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 21
+      },
+      "id": 7,
+      "options": {
+        "cellHeight": "md",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Value"
+          }
+        ]
+      },
+      "pluginVersion": "11.1.3",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "disableTextWrap": false,
+          "editorMode": "code",
+          "expr": "count by (url, protocol) (analyzerperfoppo{title=\"Use HTTP/2\"})\r\n",
+          "format": "table",
+          "fullMetaSearch": false,
+          "includeNullMetadata": true,
+          "instant": false,
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A",
+          "useBackend": false
+        }
+      ],
+      "title": "Analyzer - Uses HTTP/2",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "title": true
+            },
+            "includeByName": {},
+            "indexByName": {
+              "Time": 0,
+              "Value": 3,
+              "protocol": 2,
+              "url": 1
+            },
+            "renameByName": {
+              "Value": "Count",
+              "protocol": "Protocol",
+              "url": "Affected URL's"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 260.0003
+              },
+              {
+                "color": "red",
+                "value": 380
+              }
+            ]
+          },
+          "unit": "bps"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Saving"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "clockms"
+              },
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Count"
+            },
+            "properties": [
+              {
+                "id": "unit"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Transferred Size "
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Affected Url's"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 221
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 0,
+        "y": 29
+      },
+      "id": 8,
+      "options": {
+        "cellHeight": "md",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Count"
+          }
+        ]
+      },
+      "pluginVersion": "11.1.3",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "disableTextWrap": false,
+          "editorMode": "code",
+          "expr": "count by(url, totalBytes, wastedMs) (analyzerperfoppo{title=\"Eliminate render-blocking resources\"})",
+          "format": "table",
+          "fullMetaSearch": false,
+          "includeNullMetadata": true,
+          "instant": false,
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A",
+          "useBackend": false
+        }
+      ],
+      "title": "Analyzer - Eliminate Render Blocking Resources",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "title": true
+            },
+            "includeByName": {},
+            "indexByName": {
+              "Time": 0,
+              "Value": 4,
+              "totalBytes": 2,
+              "url": 1,
+              "wastedMs": 3
+            },
+            "renameByName": {
+              "Value": "Count",
+              "totalBytes": "Transferred Size ",
+              "url": "Affected Url's",
+              "wastedMs": "Potential Saving"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 12,
+        "y": 29
+      },
+      "id": 9,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### Opportunity: Eliminate render-blocking resources audit  ###\n*The goal is to reduce the impact of these render-blocking URLs by inlining critical resources which are highlighted in red, deferring non-critical resources highlighted in yellow, and removing anything unused. Resources which are blocking the first paint of your page, consider delivering critical JS/CSS inline and deferring all non-critical JS/styles. \nSo the two types of render-blocking URLs are: scripts and stylesheets.*\n\n*A `<script>` tag that:*\n- *Is in the `<head>` of the document*\n- *Does not have a defer attribute*\n- *Does not have an async attribute*\n\n*A `<link rel=\"stylesheet\">` tag that:*\n- *Does not have a `disabled` attribute. When this attribute is present, the browser does not download the stylesheet*\n- *Does not have a `media` attribute that matches the user's device specifically. `media=\"all\"` is considered render-blocking*\n\n\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.1.3",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 0,
+        "y": 41
+      },
+      "id": 11,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### Opportunity: Enable text compression audit  ###\n*Text-based resources should be served with compression to minimize total network bytes. The Opportunities section of your Lighthouse report lists all text-based resources that aren't compressed. If the original size of a response is less than 1.4 KiB, or if the potential compression savings is less than 10% of the original size, then report does not flag that response in the results and displays in green, while the above are flaged in red. Report gathers all responses that:*\n- *Have text-based resource types*\n- *Do not include a `content-encoding` header set to `br`, `gzip`, or `deflate`*\n\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.1.3",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 260.0003
+              },
+              {
+                "color": "red",
+                "value": 380
+              }
+            ]
+          },
+          "unit": "bps"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Saving"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "clockms"
+              },
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Count"
+            },
+            "properties": [
+              {
+                "id": "unit"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Transferred Size "
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Affected Url's"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 221
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 12,
+        "y": 41
+      },
+      "id": 10,
+      "options": {
+        "cellHeight": "md",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Count"
+          }
+        ]
+      },
+      "pluginVersion": "11.1.3",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "disableTextWrap": false,
+          "editorMode": "code",
+          "expr": "count by(url, totalBytes, wastedBytes) (analyzerperfoppo{title=\"Enable text compression\"})",
+          "format": "table",
+          "fullMetaSearch": false,
+          "includeNullMetadata": true,
+          "instant": false,
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A",
+          "useBackend": false
+        }
+      ],
+      "title": "Analyzer - Enable text compression",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "title": true
+            },
+            "includeByName": {},
+            "indexByName": {
+              "Time": 0,
+              "Value": 4,
+              "totalBytes": 2,
+              "url": 1,
+              "wastedMs": 3
+            },
+            "renameByName": {
+              "Value": "Count",
+              "totalBytes": "Transferred Size ",
+              "url": "Affected Url's",
+              "wastedMs": "Potential Saving"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 24,
+        "x": 0,
+        "y": 53
+      },
+      "id": 12,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### Opportunity: Defer offscreen images audit  ###\n*Lists all offscreen or hidden images in your page along with the potential savings in kibibytes (KiB). Consider lazy-loading these images after all critical resources have finished loading to lower Time to Interactive*\n\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.1.3",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 260.0003
+              },
+              {
+                "color": "red",
+                "value": 380
+              }
+            ]
+          },
+          "unit": "bps"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Saving"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "clockms"
+              },
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Count"
+            },
+            "properties": [
+              {
+                "id": "unit"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Transferred Size "
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Affected Url's"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 221
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 24,
+        "x": 0,
+        "y": 57
+      },
+      "id": 13,
+      "options": {
+        "cellHeight": "md",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Count"
+          }
+        ]
+      },
+      "pluginVersion": "11.1.3",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "disableTextWrap": false,
+          "editorMode": "code",
+          "expr": "count by(url, lhId, path, selector) (analyzerperfoppo{title=\"Defer offscreen images\"})",
+          "format": "table",
+          "fullMetaSearch": false,
+          "includeNullMetadata": true,
+          "instant": false,
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A",
+          "useBackend": false
+        }
+      ],
+      "title": "Analyzer - Defer offscreen images",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "title": true
+            },
+            "includeByName": {},
+            "indexByName": {
+              "Time": 0,
+              "Value": 5,
+              "lhId": 2,
+              "path": 3,
+              "selector": 4,
+              "url": 1
+            },
+            "renameByName": {
+              "Value": "Count",
+              "lhId": "LhId",
+              "path": "Path",
+              "selector": "Selector",
+              "totalBytes": "Transferred Size ",
+              "url": "Affected Url's",
+              "wastedMs": "Potential Saving"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 0,
+        "y": 66
+      },
+      "id": 14,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### Opportunity: Minify CSS audit  ###\n*Lists all unminified CSS files, along with the potential savings in kibibytes (KiB) when these files are minified. Minifying CSS files can improve your page load performance. CSS files are often larger than they need to be.*\n\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.1.3",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 260.0003
+              },
+              {
+                "color": "red",
+                "value": 380
+              }
+            ]
+          },
+          "unit": "bps"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Saving"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "clockms"
+              },
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Count"
+            },
+            "properties": [
+              {
+                "id": "unit"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Transferred Size "
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Affected Url's"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 221
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 12,
+        "y": 66
+      },
+      "id": 15,
+      "options": {
+        "cellHeight": "md",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Count"
+          }
+        ]
+      },
+      "pluginVersion": "11.1.3",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "disableTextWrap": false,
+          "editorMode": "code",
+          "expr": "count by(url, totalBytes, wastedBytes) (analyzerperfoppo{title=\"Minify CSS\"})",
+          "format": "table",
+          "fullMetaSearch": false,
+          "includeNullMetadata": true,
+          "instant": false,
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A",
+          "useBackend": false
+        }
+      ],
+      "title": "Analyzer - Minify CSS",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "title": true
+            },
+            "includeByName": {},
+            "indexByName": {
+              "Time": 0,
+              "Value": 4,
+              "totalBytes": 2,
+              "url": 1,
+              "wastedMs": 3
+            },
+            "renameByName": {
+              "Value": "Count",
+              "totalBytes": "Transferred Size ",
+              "url": "Affected Url's",
+              "wastedMs": "Potential Saving"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 260.0003
+              },
+              {
+                "color": "red",
+                "value": 380
+              }
+            ]
+          },
+          "unit": "bps"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Saving"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "clockms"
+              },
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Count"
+            },
+            "properties": [
+              {
+                "id": "unit"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Transferred Size "
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Affected Url's"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 221
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 0,
+        "y": 78
+      },
+      "id": 17,
+      "options": {
+        "cellHeight": "md",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Count"
+          }
+        ]
+      },
+      "pluginVersion": "11.1.3",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "disableTextWrap": false,
+          "editorMode": "code",
+          "expr": "count by(url, totalBytes, wastedBytes) (analyzerperfoppo{title=\"Minify JavaScript\"})",
+          "format": "table",
+          "fullMetaSearch": false,
+          "includeNullMetadata": true,
+          "instant": false,
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A",
+          "useBackend": false
+        }
+      ],
+      "title": "Analyzer - Minify CSS",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "title": true
+            },
+            "includeByName": {},
+            "indexByName": {
+              "Time": 0,
+              "Value": 4,
+              "totalBytes": 2,
+              "url": 1,
+              "wastedMs": 3
+            },
+            "renameByName": {
+              "Value": "Count",
+              "totalBytes": "Transferred Size ",
+              "url": "Affected Url's",
+              "wastedMs": "Potential Saving"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 12,
+        "y": 78
+      },
+      "id": 16,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### Opportunity: Minify JavaScript audit  ###\n*Minifying JavaScript files can reduce payload sizes and script parse time. The Opportunities section of your report lists all unminified JavaScript files, along with the potential savings in kibibytes (KiB) when these files are minified. Minification is the process of removing whitespace and any code that is not necessary to create a smaller but perfectly valid code file.*\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.1.3",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 5,
+        "w": 24,
+        "x": 0,
+        "y": 90
+      },
+      "id": 18,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### Opportunity: Serve images in modern formats audit  ###\n*Lists all images in older image formats, showing potential savings gained by serving AVIF versions of those images. AVIF and WebP are image formats that have superior compression and quality characteristics compared to their older JPEG and PNG counterparts. Encoding your images in these formats rather than JPEG or PNG means that they will load faster and consume less cellular data.*\n\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.1.3",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 65
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "bps"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Saving"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "clockms"
+              },
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Count"
+            },
+            "properties": [
+              {
+                "id": "unit"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Resource Size"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Affected Url's"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 174
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Savings"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "LhId"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 98
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Selector"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 286
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Path"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 232
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 24,
+        "x": 0,
+        "y": 95
+      },
+      "id": 19,
+      "options": {
+        "cellHeight": "md",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Count"
+          }
+        ]
+      },
+      "pluginVersion": "11.1.3",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "disableTextWrap": false,
+          "editorMode": "code",
+          "expr": "count by(url, lhId, path, selector, totalBytes, wastedBytes) (analyzerperfoppo{title=\"Serve images in next-gen formats\"})",
+          "format": "table",
+          "fullMetaSearch": false,
+          "includeNullMetadata": true,
+          "instant": false,
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A",
+          "useBackend": false
+        }
+      ],
+      "title": "Analyzer - Defer offscreen images",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "title": true
+            },
+            "includeByName": {},
+            "indexByName": {
+              "Time": 0,
+              "Value": 7,
+              "lhId": 2,
+              "path": 3,
+              "selector": 4,
+              "totalBytes": 5,
+              "url": 1,
+              "wastedBytes": 6
+            },
+            "renameByName": {
+              "Value": "Count",
+              "lhId": "LhId",
+              "path": "Path",
+              "selector": "Selector",
+              "totalBytes": "Resource Size",
+              "url": "Affected Url's",
+              "wastedBytes": "Potential Savings",
+              "wastedMs": "Potential Saving"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 0,
+        "y": 104
+      },
+      "id": 20,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### Opportunity: Remove unused CSS audit  ###\n*Lists all stylesheets with unused CSS with a potential savings of 2 KiB or more. Remove the unused CSS to reduce unnecessary bytes consumed by network activity.*\n\n*Each external stylesheet must be downloaded from the network. These extra network trips can significantly increase the time that users must wait before they see any content on their screens.*\n\n*Unused CSS also slows down a browser's construction of the render tree. The render tree is like the DOM tree, except that it also includes the styles for each node. To construct the render tree, a browser must walk the entire DOM tree, and check which CSS rules apply to each node. The more unused CSS there is, the more time that a browser might potentially need to spend calculating the styles for each node.*\n\n\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.1.3",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 65
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "bps"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Saving"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "clockms"
+              },
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Count"
+            },
+            "properties": [
+              {
+                "id": "unit"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Transfer Size"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Affected Url's"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 221
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Savings"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 12,
+        "y": 104
+      },
+      "id": 21,
+      "options": {
+        "cellHeight": "md",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Affected Url's"
+          }
+        ]
+      },
+      "pluginVersion": "11.1.3",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "disableTextWrap": false,
+          "editorMode": "code",
+          "expr": "count by(url, totalBytes, wastedBytes) (analyzerperfoppo{title=\"Reduce unused CSS\"})",
+          "format": "table",
+          "fullMetaSearch": false,
+          "includeNullMetadata": true,
+          "instant": false,
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A",
+          "useBackend": false
+        }
+      ],
+      "title": "Analyzer - Remove unused CSS",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "title": true
+            },
+            "includeByName": {},
+            "indexByName": {
+              "Time": 0,
+              "Value": 4,
+              "totalBytes": 2,
+              "url": 1,
+              "wastedBytes": 3
+            },
+            "renameByName": {
+              "Value": "Count",
+              "totalBytes": "Transfer Size",
+              "url": "Affected Url's",
+              "wastedBytes": "Potential Savings",
+              "wastedMs": "Potential Saving"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 65
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "bps"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Saving"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "clockms"
+              },
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Count"
+            },
+            "properties": [
+              {
+                "id": "unit"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Transfer Size"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Affected Url's"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 221
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Savings"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 0,
+        "y": 116
+      },
+      "id": 23,
+      "options": {
+        "cellHeight": "md",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Affected Url's"
+          }
+        ]
+      },
+      "pluginVersion": "11.1.3",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "disableTextWrap": false,
+          "editorMode": "code",
+          "expr": "count by(url, totalBytes, wastedBytes) (analyzerperfoppo{title=\"Reduce unused JavaScript\"})",
+          "format": "table",
+          "fullMetaSearch": false,
+          "includeNullMetadata": true,
+          "instant": false,
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A",
+          "useBackend": false
+        }
+      ],
+      "title": "Analyzer - Remove unused JavaScript",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "title": true
+            },
+            "includeByName": {},
+            "indexByName": {
+              "Time": 0,
+              "Value": 4,
+              "totalBytes": 2,
+              "url": 1,
+              "wastedBytes": 3
+            },
+            "renameByName": {
+              "Value": "Count",
+              "totalBytes": "Transfer Size",
+              "url": "Affected Url's",
+              "wastedBytes": "Potential Savings",
+              "wastedMs": "Potential Saving"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 12,
+        "y": 116
+      },
+      "id": 22,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### Opportunity: Remove unused JavaScript audit  ###\n*Report flags every JavaScript file with more than 20 kibibytes of unused code. Unused JavaScript can slow down your page load speed:*\n\n- *If the JavaScript is render-blocking, the browser must download, parse, compile, and evaluate the script before it can proceed with all of the other work that's needed for rendering the page.*\n\n- *Even if the JavaScript is asynchronous (i.e. not render-blocking), the code competes for bandwidth with other resources while it's downloading, which has significant performance implications. Sending unused code over the network is also wasteful for mobile users who don't have unlimited data plans.*\n\n\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.1.3",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 0,
+        "y": 128
+      },
+      "id": 24,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### Opportunity: Reduce server response times (TTFB) audit  ###\n*Reports Time to First Byte, the time that it takes for a user's browser to receive the first byte of page content. This audit fails when the browser waits more than 600 ms for the server to respond to the main document request. Users dislike when pages take a long time to load. Slow server response times are one possible cause for long page loads.*\n\n*When users navigate to a URL in their web browser, the browser makes a network request to fetch that content. Your server receives the request and returns the page content. The server may need to do a lot of work in order to return a page with all of the content that users want. For example, if users are looking at their order history, the server needs to fetch each user's history from a database, and then insert that content into the page. Optimizing the server to do work like this as quickly as possible is one way to reduce the time that users spend waiting for pages to load.*\n\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.1.3",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 65
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "ms"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Saving"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "clockms"
+              },
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Count"
+            },
+            "properties": [
+              {
+                "id": "unit"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Transfer Size"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Affected Url's"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 342
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Potential Savings"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 12,
+        "y": 128
+      },
+      "id": 25,
+      "options": {
+        "cellHeight": "md",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Affected Url's"
+          }
+        ]
+      },
+      "pluginVersion": "11.1.3",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "disableTextWrap": false,
+          "editorMode": "code",
+          "expr": "count by(url, responseTime) (analyzerperfoppo{title=\"Reduce initial server response time\"})",
+          "format": "table",
+          "fullMetaSearch": false,
+          "includeNullMetadata": true,
+          "instant": false,
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A",
+          "useBackend": false
+        }
+      ],
+      "title": "Analyzer - Reduce server response times",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "title": true
+            },
+            "includeByName": {},
+            "indexByName": {
+              "Time": 0,
+              "Value": 3,
+              "responseTime": 2,
+              "url": 1
+            },
+            "renameByName": {
+              "Value": "Count",
+              "responseTime": "Time Spend (secs)",
+              "totalBytes": "Transfer Size",
+              "url": "Affected Url's",
+              "wastedBytes": "Potential Savings",
+              "wastedMs": "Potential Saving"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    }
+  ],
+  "schemaVersion": 39,
+  "tags": [],
+  "templating": {
+    "list": [
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "advgjmtb35ssgc"
+        },
+        "filters": [],
+        "hide": 0,
+        "label": "Analyzer - Compare Control",
+        "name": "Control",
+        "skipUrlSync": false,
+        "type": "adhoc"
+      }
+    ]
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "6. DEX - Performance Opportunity Dashboard",
+  "uid": "bdw41rmbwml1ce",
+  "version": 11,
+  "weekStart": ""
+}
