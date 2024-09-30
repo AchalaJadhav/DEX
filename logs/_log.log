@@ -1,0 +1,1385 @@
+2024-08-19 09:13:09 WARN  ExecCommand:111 - 10.1.1
+2024-08-19 09:13:09 WARN  ExecCommand:111 - ✨  Chrome debugging port: 9222
+2024-08-19 09:13:14 INFO  PageStatUtils:237 - Starting ChromeDriver
+2024-08-19 09:13:21 INFO  PageStatUtils:164 - GoogleLandingPage.report.json deleted existing file with same name
+2024-08-19 09:13:22 INFO  ExecCommand:160 -  LH:ChromeLauncher Found existing Chrome already running using port 9222, using that
+2024-08-19 09:13:23 INFO  ExecCommand:160 -  LH:status Connecting to browse
+2024-08-19 09:13:23 INFO  ExecCommand:160 -  LH:status Navigating to about:blan
+2024-08-19 09:13:23 INFO  ExecCommand:160 -  LH:status Benchmarking machin
+2024-08-19 09:13:24 INFO  ExecCommand:160 -  LH:status Preparing target for navigation mod
+2024-08-19 09:13:24 INFO  ExecCommand:160 -  LH:status Navigating to about:blan
+2024-08-19 09:13:24 INFO  ExecCommand:160 -  LH:status Preparing target for navigatio
+2024-08-19 09:13:24 INFO  ExecCommand:160 -  LH:status Cleaning origin dat
+2024-08-19 09:13:24 INFO  ExecCommand:160 -  LH:status Cleaning browser cach
+2024-08-19 09:13:24 INFO  ExecCommand:160 -  LH:status Preparing network condition
+2024-08-19 09:13:24 INFO  ExecCommand:160 -  LH:status Navigating to https://www.google.com
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DevtoolsLo
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Trac
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DevtoolsLo
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Trac
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Accessibilit
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact AnchorElement
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ConsoleMessage
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact CSSUsag
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Doctyp
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DOMStat
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact EmbeddedConten
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact FontSiz
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Input
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact GlobalListener
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ImageElement
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact InstallabilityError
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:status Get webapp installability error
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact InspectorIssue
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact JsUsag
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact LinkElement
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact MainDocumentConten
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact MetaElement
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact NetworkUserAgen
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact OptimizedImage
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ResponseCompressio
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact RobotsTx
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ServiceWorke
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Script
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact SourceMap
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Stack
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:status Collect stack
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TagsBlockingFirstPain
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TapTarget
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TraceElement
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ViewportDimension
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact WebAppManifes
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:status Get webapp manifes
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact devtoolsLog
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact trace
+2024-08-19 09:13:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact FullPageScreensho
+2024-08-19 09:13:33 INFO  ExecCommand:160 -  LH:artifacts:getArtifact BFCacheFailure
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Analyzing and running audits..
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Uses HTTP
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Registers a service worker that controls page and `start_url
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Has a `<meta name="viewport">` tag with `width` or `initial-scale
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: First Contentful Pain
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Pain
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: First Meaningful Pain
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Speed Inde
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Screenshot Thumbnail
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Final Screensho
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Total Blocking Tim
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Max Potential First Input Dela
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Cumulative Layout Shif
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: No browser errors logged to the consol
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Initial server response time was shor
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Time to Interactiv
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: User Timing marks and measure
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoid chaining critical request
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoid multiple page redirect
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Web app manifest and service worker meet the installability requirement
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Configured for a custom splash scree
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Sets a theme color for the address bar
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Manifest has a maskable ico
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Content is sized correctly for the viewpor
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Displays images with correct aspect rati
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Serves images with appropriate resolutio
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Fonts with `font-display: optional` are preloade
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoids deprecated API
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Minimizes main-thread wor
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: JavaScript execution tim
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Preload key request
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Preconnect to required origin
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: All text remains visible during webfont load
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Diagnostic
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Network Request
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Network Round Trip Time
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Server Backend Latencie
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Task
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Metric
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Performance budge
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Timing budge
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Keep request counts low and transfer sizes smal
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Minimize third-party usag
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Lazy load third-party resources with facade
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Paint elemen
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Paint image was not lazily loade
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoid large layout shift
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoid long main-thread task
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoids `unload` event listener
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoid non-composited animation
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Image elements have explicit `width` and `height
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Page has valid source map
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Preload Largest Contentful Paint imag
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Ensure CSP is effective against XSS attack
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Script Treemap Dat
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Site works cross-browse
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Page transitions don't feel like they block on the networ
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Each page has a UR
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `[accesskey]` values are uniqu
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes match their role
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `button`, `link`, and `menuitem` elements have accessible name
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-hidden="true"]` is not present on the document `<body>
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-hidden="true"]` elements do not contain focusable descendent
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: ARIA input fields have accessible name
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `meter` elements have accessible name
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `progressbar` elements have accessible name
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `[role]`s have all required `[aria-*]` attribute
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Elements with an ARIA `[role]` that require children to contain a specific `[role]` have all required children
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `[role]`s are contained by their required parent elemen
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `[role]` values are vali
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: ARIA toggle fields have accessible name
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `tooltip` elements have accessible name
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `treeitem` elements have accessible name
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes have valid value
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes are valid and not misspelle
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Buttons have an accessible nam
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: The page contains a heading, skip link, or landmark regio
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Background and foreground colors have a sufficient contrast rati
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Definition list items are wrapped in `<dl>` element
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Document has a `<title>` elemen
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `[id]` attributes on active, focusable elements are uniqu
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: ARIA IDs are uniqu
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: No form fields have multiple label
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `<frame>` or `<iframe>` elements have a titl
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Heading elements appear in a sequentially-descending orde
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `<html>` element has a `[lang]` attribut
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `<html>` element has a valid value for its `[lang]` attribut
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Image elements have `[alt]` attribute
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `<input type="image">` elements have `[alt]` tex
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Form elements have associated label
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Links have a discernible nam
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`)
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: List items (`<li>`) are contained within `<ul>`, `<ol>` or `<menu>` parent element
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: The document does not use `<meta http-equiv="refresh">
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `[user-scalable="no"]` is not used in the `<meta name="viewport">` element and the `[maximum-scale]` attribute is not less than 5
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `<object>` elements have alternate tex
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: No element has a `[tabindex]` value greater than 
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `<th>` elements and elements with `[role="columnheader"/"rowheader"]` have data cells they describe
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `[lang]` attributes have a valid valu
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: `<video>` elements contain a `<track>` element with `[kind="captions"]
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Custom controls have associated label
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Custom controls have ARIA role
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: User focus is not accidentally trapped in a regio
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Interactive controls are keyboard focusabl
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Interactive elements indicate their purpose and stat
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: The page has a logical tab orde
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: The user's focus is directed to new content added to the pag
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Offscreen content is hidden from assistive technolog
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: HTML5 landmark elements are used to improve navigatio
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Visual order on the page follows DOM orde
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Uses efficient cache policy on static asset
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoids enormous network payload
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Defer offscreen image
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Eliminate render-blocking resource
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Minify CS
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Minify JavaScrip
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Reduce unused CS
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Reduce unused JavaScrip
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Serve images in next-gen format
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Efficiently encode image
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Enable text compressio
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Properly size image
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Use video formats for animated conten
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Remove duplicate modules in JavaScript bundle
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoid serving legacy JavaScript to modern browser
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Page has the HTML doctyp
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Properly defines charse
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoids an excessive DOM siz
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoids requesting the geolocation permission on page loa
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: No issues in the `Issues` panel in Chrome Devtool
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoids `document.write()
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Detected JavaScript librarie
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Avoids requesting the notification permission on page loa
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Allows users to paste into input field
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Use HTTP/
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Uses passive listeners to improve scrolling performanc
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Document has a meta descriptio
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Page has successful HTTP status cod
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Document uses legible font size
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Links have descriptive tex
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Links are crawlabl
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Page isn’t blocked from indexin
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: robots.txt is vali
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Tap targets are sized appropriatel
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Document has a valid `hreflang
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Document avoids plugin
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Document has a valid `rel=canonical
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Structured data is vali
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Auditing: Page didn't prevent back/forward cache restoratio
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:status Generating results..
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:Printer json output written to C:\OldLappyData\Projects\UST360\Integration\FinalCodeBackup\DEXBackendKeyclockIntegration\reports\GoogleLandingPage.report.jso
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:Printer html output written to C:\OldLappyData\Projects\UST360\Integration\FinalCodeBackup\DEXBackendKeyclockIntegration\reports\GoogleLandingPage.report.htm
+2024-08-19 09:13:34 INFO  ExecCommand:160 -  LH:CLI Protip: Run lighthouse with `--view` to immediately open the HTML report in your browse
+2024-08-19 09:13:45 INFO  PageStatUtils:295 - GoogleLandingPage.report.json found,proceeding ingestion
+2024-08-26 12:29:26 WARN  ExecCommand:111 - 10.1.1
+2024-08-26 12:29:27 WARN  ExecCommand:111 - ✨  Chrome debugging port: 9222
+2024-08-26 12:29:31 INFO  PageStatUtils:237 - Starting ChromeDriver
+2024-08-26 12:29:55 INFO  ExecCommand:160 -  LH:ChromeLauncher Found existing Chrome already running using port 9222, using that
+2024-08-26 12:29:56 INFO  ExecCommand:160 -  LH:status Connecting to browse
+2024-08-26 12:29:57 INFO  ExecCommand:160 -  LH:status Navigating to about:blan
+2024-08-26 12:29:57 INFO  ExecCommand:160 -  LH:status Benchmarking machin
+2024-08-26 12:29:58 INFO  ExecCommand:160 -  LH:status Preparing target for navigation mod
+2024-08-26 12:29:58 INFO  ExecCommand:160 -  LH:status Navigating to about:blan
+2024-08-26 12:29:58 INFO  ExecCommand:160 -  LH:status Preparing target for navigatio
+2024-08-26 12:29:58 INFO  ExecCommand:160 -  LH:status Cleaning origin dat
+2024-08-26 12:29:58 INFO  ExecCommand:160 -  LH:status Cleaning browser cach
+2024-08-26 12:29:58 INFO  ExecCommand:160 -  LH:status Preparing network condition
+2024-08-26 12:29:58 INFO  ExecCommand:160 -  LH:status Navigating to https://www.wolterskluwer.com/en-i
+2024-08-26 12:30:09 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DevtoolsLo
+2024-08-26 12:30:09 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Trac
+2024-08-26 12:30:09 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DevtoolsLo
+2024-08-26 12:30:09 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Trac
+2024-08-26 12:30:09 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Accessibilit
+2024-08-26 12:30:09 INFO  ExecCommand:160 -  LH:artifacts:getArtifact AnchorElement
+2024-08-26 12:30:10 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ConsoleMessage
+2024-08-26 12:30:10 INFO  ExecCommand:160 -  LH:artifacts:getArtifact CSSUsag
+2024-08-26 12:30:11 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Doctyp
+2024-08-26 12:30:11 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DOMStat
+2024-08-26 12:30:11 INFO  ExecCommand:160 -  LH:artifacts:getArtifact EmbeddedConten
+2024-08-26 12:30:11 INFO  ExecCommand:160 -  LH:artifacts:getArtifact FontSiz
+2024-08-26 12:30:14 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Input
+2024-08-26 12:30:14 INFO  ExecCommand:160 -  LH:artifacts:getArtifact GlobalListener
+2024-08-26 12:30:14 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ImageElement
+2024-08-26 12:30:17 INFO  ExecCommand:160 -  LH:artifacts:getArtifact InstallabilityError
+2024-08-26 12:30:17 INFO  ExecCommand:160 -  LH:status Get webapp installability error
+2024-08-26 12:30:17 INFO  ExecCommand:160 -  LH:artifacts:getArtifact InspectorIssue
+2024-08-26 12:30:17 INFO  ExecCommand:160 -  LH:artifacts:getArtifact JsUsag
+2024-08-26 12:30:17 INFO  ExecCommand:160 -  LH:artifacts:getArtifact LinkElement
+2024-08-26 12:30:17 INFO  ExecCommand:160 -  LH:artifacts:getArtifact MainDocumentConten
+2024-08-26 12:30:17 INFO  ExecCommand:160 -  LH:artifacts:getArtifact MetaElement
+2024-08-26 12:30:17 INFO  ExecCommand:160 -  LH:artifacts:getArtifact NetworkUserAgen
+2024-08-26 12:30:17 INFO  ExecCommand:160 -  LH:artifacts:getArtifact OptimizedImage
+2024-08-26 12:30:18 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ResponseCompressio
+2024-08-26 12:30:18 INFO  ExecCommand:160 -  LH:artifacts:getArtifact RobotsTx
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ServiceWorke
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Script
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:artifacts:getArtifact SourceMap
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Stack
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:status Collect stack
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TagsBlockingFirstPain
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TapTarget
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TraceElement
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ViewportDimension
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:artifacts:getArtifact WebAppManifes
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:status Get webapp manifes
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:artifacts:getArtifact devtoolsLog
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:artifacts:getArtifact trace
+2024-08-26 12:30:19 INFO  ExecCommand:160 -  LH:artifacts:getArtifact FullPageScreensho
+2024-08-26 12:30:21 INFO  ExecCommand:160 -  LH:artifacts:getArtifact BFCacheFailure
+2024-08-26 12:30:23 INFO  ExecCommand:160 -  LH:status Analyzing and running audits..
+2024-08-26 12:30:23 INFO  ExecCommand:160 -  LH:status Auditing: Uses HTTP
+2024-08-26 12:30:23 INFO  ExecCommand:160 -  LH:status Auditing: Registers a service worker that controls page and `start_url
+2024-08-26 12:30:23 INFO  ExecCommand:160 -  LH:status Auditing: Has a `<meta name="viewport">` tag with `width` or `initial-scale
+2024-08-26 12:30:23 INFO  ExecCommand:160 -  LH:status Auditing: First Contentful Pain
+2024-08-26 12:30:23 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Pain
+2024-08-26 12:30:23 INFO  ExecCommand:160 -  LH:status Auditing: First Meaningful Pain
+2024-08-26 12:30:23 INFO  ExecCommand:160 -  LH:status Auditing: Speed Inde
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Screenshot Thumbnail
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Final Screensho
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Total Blocking Tim
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Max Potential First Input Dela
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Cumulative Layout Shif
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: No browser errors logged to the consol
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Initial server response time was shor
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Time to Interactiv
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: User Timing marks and measure
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Avoid chaining critical request
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Avoid multiple page redirect
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Web app manifest and service worker meet the installability requirement
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Configured for a custom splash scree
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Sets a theme color for the address bar
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Manifest has a maskable ico
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Content is sized correctly for the viewpor
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Displays images with correct aspect rati
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Serves images with appropriate resolutio
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Fonts with `font-display: optional` are preloade
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Avoids deprecated API
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Minimizes main-thread wor
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: JavaScript execution tim
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Preload key request
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Preconnect to required origin
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: All text remains visible during webfont load
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Diagnostic
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Network Request
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Network Round Trip Time
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Server Backend Latencie
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Task
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Metric
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Performance budge
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Timing budge
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Keep request counts low and transfer sizes smal
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Minimize third-party usag
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Lazy load third-party resources with facade
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Paint elemen
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Paint image was not lazily loade
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Avoid large layout shift
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Avoid long main-thread task
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Avoids `unload` event listener
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Avoid non-composited animation
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Image elements have explicit `width` and `height
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Page has valid source map
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Preload Largest Contentful Paint imag
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Ensure CSP is effective against XSS attack
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Script Treemap Dat
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Site works cross-browse
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Page transitions don't feel like they block on the networ
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Each page has a UR
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `[accesskey]` values are uniqu
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes match their role
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `button`, `link`, and `menuitem` elements have accessible name
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-hidden="true"]` is not present on the document `<body>
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-hidden="true"]` elements do not contain focusable descendent
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: ARIA input fields have accessible name
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `meter` elements have accessible name
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `progressbar` elements have accessible name
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `[role]`s have all required `[aria-*]` attribute
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Elements with an ARIA `[role]` that require children to contain a specific `[role]` have all required children
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `[role]`s are contained by their required parent elemen
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `[role]` values are vali
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: ARIA toggle fields have accessible name
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `tooltip` elements have accessible name
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `treeitem` elements have accessible name
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes have valid value
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes are valid and not misspelle
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Buttons have an accessible nam
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: The page contains a heading, skip link, or landmark regio
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Background and foreground colors have a sufficient contrast rati
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Definition list items are wrapped in `<dl>` element
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Document has a `<title>` elemen
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `[id]` attributes on active, focusable elements are uniqu
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: ARIA IDs are uniqu
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: No form fields have multiple label
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `<frame>` or `<iframe>` elements have a titl
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Heading elements appear in a sequentially-descending orde
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `<html>` element has a `[lang]` attribut
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `<html>` element has a valid value for its `[lang]` attribut
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Image elements have `[alt]` attribute
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `<input type="image">` elements have `[alt]` tex
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Form elements have associated label
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Links have a discernible nam
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`)
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: List items (`<li>`) are contained within `<ul>`, `<ol>` or `<menu>` parent element
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: The document does not use `<meta http-equiv="refresh">
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `[user-scalable="no"]` is not used in the `<meta name="viewport">` element and the `[maximum-scale]` attribute is not less than 5
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `<object>` elements have alternate tex
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: No element has a `[tabindex]` value greater than 
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `<th>` elements and elements with `[role="columnheader"/"rowheader"]` have data cells they describe
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `[lang]` attributes have a valid valu
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: `<video>` elements contain a `<track>` element with `[kind="captions"]
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Custom controls have associated label
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Custom controls have ARIA role
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: User focus is not accidentally trapped in a regio
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Interactive controls are keyboard focusabl
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Interactive elements indicate their purpose and stat
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: The page has a logical tab orde
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: The user's focus is directed to new content added to the pag
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Offscreen content is hidden from assistive technolog
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: HTML5 landmark elements are used to improve navigatio
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Visual order on the page follows DOM orde
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Uses efficient cache policy on static asset
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Avoids enormous network payload
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Defer offscreen image
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Eliminate render-blocking resource
+2024-08-26 12:30:24 INFO  ExecCommand:160 -  LH:status Auditing: Minify CS
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Minify JavaScrip
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Reduce unused CS
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Reduce unused JavaScrip
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Serve images in next-gen format
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Efficiently encode image
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Enable text compressio
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Properly size image
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Use video formats for animated conten
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Remove duplicate modules in JavaScript bundle
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Avoid serving legacy JavaScript to modern browser
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Page has the HTML doctyp
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Properly defines charse
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Avoids an excessive DOM siz
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Avoids requesting the geolocation permission on page loa
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: No issues in the `Issues` panel in Chrome Devtool
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Avoids `document.write()
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Detected JavaScript librarie
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Avoids requesting the notification permission on page loa
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Allows users to paste into input field
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Use HTTP/
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Uses passive listeners to improve scrolling performanc
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Document has a meta descriptio
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Page has successful HTTP status cod
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Document uses legible font size
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Links have descriptive tex
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Links are crawlabl
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Page isn’t blocked from indexin
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: robots.txt is vali
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Tap targets are sized appropriatel
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Document has a valid `hreflang
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Document avoids plugin
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Document has a valid `rel=canonical
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Structured data is vali
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Auditing: Page didn't prevent back/forward cache restoratio
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:status Generating results..
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:Printer json output written to C:\OldLappyData\Projects\UST360\Integration\FinalCodeBackup\DEXBackendKeyclockIntegration\reports\WKLandingPage.report.jso
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:Printer html output written to C:\OldLappyData\Projects\UST360\Integration\FinalCodeBackup\DEXBackendKeyclockIntegration\reports\WKLandingPage.report.htm
+2024-08-26 12:30:25 INFO  ExecCommand:160 -  LH:CLI Protip: Run lighthouse with `--view` to immediately open the HTML report in your browse
+2024-08-26 12:30:39 INFO  PageStatUtils:295 - WKLandingPage.report.json found,proceeding ingestion
+2024-08-26 12:33:23 INFO  PageStatUtils:263 - ChromeDriver Stopped Successfully
+2024-08-26 12:33:39 WARN  ExecCommand:111 - 10.1.1
+2024-08-26 12:33:40 WARN  ExecCommand:111 - ✨  Chrome debugging port: 9222
+2024-08-26 12:33:44 INFO  PageStatUtils:237 - Starting ChromeDriver
+2024-08-26 12:33:48 INFO  PageStatUtils:164 - GoogleLandingPage.report.json deleted existing file with same name
+2024-08-26 12:33:50 INFO  ExecCommand:160 -  LH:ChromeLauncher Found existing Chrome already running using port 9222, using that
+2024-08-26 12:33:51 INFO  ExecCommand:160 -  LH:status Connecting to browse
+2024-08-26 12:33:51 INFO  ExecCommand:160 -  LH:status Navigating to about:blan
+2024-08-26 12:33:51 INFO  ExecCommand:160 -  LH:status Benchmarking machin
+2024-08-26 12:33:52 INFO  ExecCommand:160 -  LH:status Preparing target for navigation mod
+2024-08-26 12:33:52 INFO  ExecCommand:160 -  LH:status Navigating to about:blan
+2024-08-26 12:33:52 INFO  ExecCommand:160 -  LH:status Preparing target for navigatio
+2024-08-26 12:33:52 INFO  ExecCommand:160 -  LH:status Cleaning origin dat
+2024-08-26 12:33:52 INFO  ExecCommand:160 -  LH:status Cleaning browser cach
+2024-08-26 12:33:52 INFO  ExecCommand:160 -  LH:status Preparing network condition
+2024-08-26 12:33:52 INFO  ExecCommand:160 -  LH:status Navigating to https://www.google.com
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DevtoolsLo
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Trac
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DevtoolsLo
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Trac
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Accessibilit
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact AnchorElement
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ConsoleMessage
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact CSSUsag
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Doctyp
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DOMStat
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact EmbeddedConten
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact FontSiz
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Input
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact GlobalListener
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ImageElement
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact InstallabilityError
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:status Get webapp installability error
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact InspectorIssue
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact JsUsag
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact LinkElement
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact MainDocumentConten
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact MetaElement
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact NetworkUserAgen
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact OptimizedImage
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ResponseCompressio
+2024-08-26 12:33:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact RobotsTx
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ServiceWorke
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Script
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:artifacts:getArtifact SourceMap
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Stack
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:status Collect stack
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TagsBlockingFirstPain
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TapTarget
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TraceElement
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ViewportDimension
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:artifacts:getArtifact WebAppManifes
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:status Get webapp manifes
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:artifacts:getArtifact devtoolsLog
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:artifacts:getArtifact trace
+2024-08-26 12:33:59 INFO  ExecCommand:160 -  LH:artifacts:getArtifact FullPageScreensho
+2024-08-26 12:34:02 INFO  ExecCommand:160 -  LH:artifacts:getArtifact BFCacheFailure
+2024-08-26 12:34:02 INFO  ExecCommand:160 -  LH:status Analyzing and running audits..
+2024-08-26 12:34:02 INFO  ExecCommand:160 -  LH:status Auditing: Uses HTTP
+2024-08-26 12:34:02 INFO  ExecCommand:160 -  LH:status Auditing: Registers a service worker that controls page and `start_url
+2024-08-26 12:34:02 INFO  ExecCommand:160 -  LH:status Auditing: Has a `<meta name="viewport">` tag with `width` or `initial-scale
+2024-08-26 12:34:02 INFO  ExecCommand:160 -  LH:status Auditing: First Contentful Pain
+2024-08-26 12:34:02 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Pain
+2024-08-26 12:34:02 INFO  ExecCommand:160 -  LH:status Auditing: First Meaningful Pain
+2024-08-26 12:34:02 INFO  ExecCommand:160 -  LH:status Auditing: Speed Inde
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Screenshot Thumbnail
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Final Screensho
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Total Blocking Tim
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Max Potential First Input Dela
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Cumulative Layout Shif
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: No browser errors logged to the consol
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Initial server response time was shor
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Time to Interactiv
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: User Timing marks and measure
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoid chaining critical request
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoid multiple page redirect
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Web app manifest and service worker meet the installability requirement
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Configured for a custom splash scree
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Sets a theme color for the address bar
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Manifest has a maskable ico
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Content is sized correctly for the viewpor
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Displays images with correct aspect rati
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Serves images with appropriate resolutio
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Fonts with `font-display: optional` are preloade
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoids deprecated API
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Minimizes main-thread wor
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: JavaScript execution tim
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Preload key request
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Preconnect to required origin
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: All text remains visible during webfont load
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Diagnostic
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Network Request
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Network Round Trip Time
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Server Backend Latencie
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Task
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Metric
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Performance budge
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Timing budge
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Keep request counts low and transfer sizes smal
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Minimize third-party usag
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Lazy load third-party resources with facade
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Paint elemen
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Paint image was not lazily loade
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoid large layout shift
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoid long main-thread task
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoids `unload` event listener
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoid non-composited animation
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Image elements have explicit `width` and `height
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Page has valid source map
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Preload Largest Contentful Paint imag
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Ensure CSP is effective against XSS attack
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Script Treemap Dat
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Site works cross-browse
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Page transitions don't feel like they block on the networ
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Each page has a UR
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `[accesskey]` values are uniqu
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes match their role
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `button`, `link`, and `menuitem` elements have accessible name
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-hidden="true"]` is not present on the document `<body>
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-hidden="true"]` elements do not contain focusable descendent
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: ARIA input fields have accessible name
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `meter` elements have accessible name
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `progressbar` elements have accessible name
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `[role]`s have all required `[aria-*]` attribute
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Elements with an ARIA `[role]` that require children to contain a specific `[role]` have all required children
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `[role]`s are contained by their required parent elemen
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `[role]` values are vali
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: ARIA toggle fields have accessible name
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `tooltip` elements have accessible name
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `treeitem` elements have accessible name
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes have valid value
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes are valid and not misspelle
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Buttons have an accessible nam
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: The page contains a heading, skip link, or landmark regio
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Background and foreground colors have a sufficient contrast rati
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Definition list items are wrapped in `<dl>` element
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Document has a `<title>` elemen
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `[id]` attributes on active, focusable elements are uniqu
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: ARIA IDs are uniqu
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: No form fields have multiple label
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `<frame>` or `<iframe>` elements have a titl
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Heading elements appear in a sequentially-descending orde
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `<html>` element has a `[lang]` attribut
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `<html>` element has a valid value for its `[lang]` attribut
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Image elements have `[alt]` attribute
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `<input type="image">` elements have `[alt]` tex
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Form elements have associated label
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Links have a discernible nam
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`)
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: List items (`<li>`) are contained within `<ul>`, `<ol>` or `<menu>` parent element
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: The document does not use `<meta http-equiv="refresh">
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `[user-scalable="no"]` is not used in the `<meta name="viewport">` element and the `[maximum-scale]` attribute is not less than 5
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `<object>` elements have alternate tex
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: No element has a `[tabindex]` value greater than 
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `<th>` elements and elements with `[role="columnheader"/"rowheader"]` have data cells they describe
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `[lang]` attributes have a valid valu
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: `<video>` elements contain a `<track>` element with `[kind="captions"]
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Custom controls have associated label
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Custom controls have ARIA role
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: User focus is not accidentally trapped in a regio
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Interactive controls are keyboard focusabl
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Interactive elements indicate their purpose and stat
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: The page has a logical tab orde
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: The user's focus is directed to new content added to the pag
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Offscreen content is hidden from assistive technolog
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: HTML5 landmark elements are used to improve navigatio
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Visual order on the page follows DOM orde
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Uses efficient cache policy on static asset
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoids enormous network payload
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Defer offscreen image
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Eliminate render-blocking resource
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Minify CS
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Minify JavaScrip
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Reduce unused CS
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Reduce unused JavaScrip
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Serve images in next-gen format
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Efficiently encode image
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Enable text compressio
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Properly size image
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Use video formats for animated conten
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Remove duplicate modules in JavaScript bundle
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoid serving legacy JavaScript to modern browser
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Page has the HTML doctyp
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Properly defines charse
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoids an excessive DOM siz
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoids requesting the geolocation permission on page loa
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: No issues in the `Issues` panel in Chrome Devtool
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoids `document.write()
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Detected JavaScript librarie
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Avoids requesting the notification permission on page loa
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Allows users to paste into input field
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Use HTTP/
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Uses passive listeners to improve scrolling performanc
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Document has a meta descriptio
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Page has successful HTTP status cod
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Document uses legible font size
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Links have descriptive tex
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Links are crawlabl
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Page isn’t blocked from indexin
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: robots.txt is vali
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Tap targets are sized appropriatel
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Document has a valid `hreflang
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Document avoids plugin
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Document has a valid `rel=canonical
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Structured data is vali
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Auditing: Page didn't prevent back/forward cache restoratio
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:status Generating results..
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:Printer json output written to C:\OldLappyData\Projects\UST360\Integration\FinalCodeBackup\DEXBackendKeyclockIntegration\reports\GoogleLandingPage.report.jso
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:Printer html output written to C:\OldLappyData\Projects\UST360\Integration\FinalCodeBackup\DEXBackendKeyclockIntegration\reports\GoogleLandingPage.report.htm
+2024-08-26 12:34:03 INFO  ExecCommand:160 -  LH:CLI Protip: Run lighthouse with `--view` to immediately open the HTML report in your browse
+2024-08-26 12:34:15 INFO  PageStatUtils:295 - GoogleLandingPage.report.json found,proceeding ingestion
+2024-08-26 12:34:15 ERROR PageStatUtils:301 - Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:142)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:150)
+	at io.prometheus.client.exporter.HTTPServer.<init>(HTTPServer.java:379)
+	at io.prometheus.client.exporter.HTTPServer.<init>(HTTPServer.java:393)
+	at io.prometheus.client.exporter.HTTPServer.<init>(HTTPServer.java:400)
+	at com.dexbackend.dexbackend.pageanalyzer.utilities.ExportData.ingestToElasticSearch(ExportData.java:93)
+	at com.dexbackend.dexbackend.pageanalyzer.utilities.PageStatUtils.sendStatistics(PageStatUtils.java:296)
+	at com.dexbackend.dexbackend.pageanalyzer.controller.PageAnalyzerController.scanCurrentPage(PageAnalyzerController.java:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:145)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-08-26 12:40:10 INFO  PageStatUtils:263 - ChromeDriver Stopped Successfully
+2024-08-26 12:40:33 WARN  ExecCommand:111 - 10.1.1
+2024-08-26 12:40:35 WARN  ExecCommand:111 - ✨  Chrome debugging port: 9222
+2024-08-26 12:40:39 INFO  PageStatUtils:237 - Starting ChromeDriver
+2024-08-26 12:40:45 INFO  PageStatUtils:164 - WKLandingPage.report.json deleted existing file with same name
+2024-08-26 12:40:47 INFO  ExecCommand:160 -  LH:ChromeLauncher Found existing Chrome already running using port 9222, using that
+2024-08-26 12:40:48 INFO  ExecCommand:160 -  LH:status Connecting to browse
+2024-08-26 12:40:48 INFO  ExecCommand:160 -  LH:status Navigating to about:blan
+2024-08-26 12:40:48 INFO  ExecCommand:160 -  LH:status Benchmarking machin
+2024-08-26 12:40:49 INFO  ExecCommand:160 -  LH:status Preparing target for navigation mod
+2024-08-26 12:40:49 INFO  ExecCommand:160 -  LH:status Navigating to about:blan
+2024-08-26 12:40:49 INFO  ExecCommand:160 -  LH:status Preparing target for navigatio
+2024-08-26 12:40:49 INFO  ExecCommand:160 -  LH:status Cleaning origin dat
+2024-08-26 12:40:49 INFO  ExecCommand:160 -  LH:status Cleaning browser cach
+2024-08-26 12:40:49 INFO  ExecCommand:160 -  LH:status Preparing network condition
+2024-08-26 12:40:49 INFO  ExecCommand:160 -  LH:status Navigating to https://www.wolterskluwer.com/en-i
+2024-08-26 12:40:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DevtoolsLo
+2024-08-26 12:40:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Trac
+2024-08-26 12:40:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DevtoolsLo
+2024-08-26 12:40:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Trac
+2024-08-26 12:40:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Accessibilit
+2024-08-26 12:40:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact AnchorElement
+2024-08-26 12:40:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ConsoleMessage
+2024-08-26 12:40:58 INFO  ExecCommand:160 -  LH:artifacts:getArtifact CSSUsag
+2024-08-26 12:41:00 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Doctyp
+2024-08-26 12:41:00 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DOMStat
+2024-08-26 12:41:00 INFO  ExecCommand:160 -  LH:artifacts:getArtifact EmbeddedConten
+2024-08-26 12:41:00 INFO  ExecCommand:160 -  LH:artifacts:getArtifact FontSiz
+2024-08-26 12:41:03 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Input
+2024-08-26 12:41:03 INFO  ExecCommand:160 -  LH:artifacts:getArtifact GlobalListener
+2024-08-26 12:41:03 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ImageElement
+2024-08-26 12:41:05 INFO  ExecCommand:160 -  LH:artifacts:getArtifact InstallabilityError
+2024-08-26 12:41:05 INFO  ExecCommand:160 -  LH:status Get webapp installability error
+2024-08-26 12:41:05 INFO  ExecCommand:160 -  LH:artifacts:getArtifact InspectorIssue
+2024-08-26 12:41:05 INFO  ExecCommand:160 -  LH:artifacts:getArtifact JsUsag
+2024-08-26 12:41:05 INFO  ExecCommand:160 -  LH:artifacts:getArtifact LinkElement
+2024-08-26 12:41:05 INFO  ExecCommand:160 -  LH:artifacts:getArtifact MainDocumentConten
+2024-08-26 12:41:05 INFO  ExecCommand:160 -  LH:artifacts:getArtifact MetaElement
+2024-08-26 12:41:05 INFO  ExecCommand:160 -  LH:artifacts:getArtifact NetworkUserAgen
+2024-08-26 12:41:05 INFO  ExecCommand:160 -  LH:artifacts:getArtifact OptimizedImage
+2024-08-26 12:41:06 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ResponseCompressio
+2024-08-26 12:41:06 INFO  ExecCommand:160 -  LH:artifacts:getArtifact RobotsTx
+2024-08-26 12:41:06 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ServiceWorke
+2024-08-26 12:41:06 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Script
+2024-08-26 12:41:06 INFO  ExecCommand:160 -  LH:artifacts:getArtifact SourceMap
+2024-08-26 12:41:06 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Stack
+2024-08-26 12:41:06 INFO  ExecCommand:160 -  LH:status Collect stack
+2024-08-26 12:41:06 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TagsBlockingFirstPain
+2024-08-26 12:41:06 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TapTarget
+2024-08-26 12:41:06 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TraceElement
+2024-08-26 12:41:07 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ViewportDimension
+2024-08-26 12:41:07 INFO  ExecCommand:160 -  LH:artifacts:getArtifact WebAppManifes
+2024-08-26 12:41:07 INFO  ExecCommand:160 -  LH:status Get webapp manifes
+2024-08-26 12:41:07 INFO  ExecCommand:160 -  LH:artifacts:getArtifact devtoolsLog
+2024-08-26 12:41:07 INFO  ExecCommand:160 -  LH:artifacts:getArtifact trace
+2024-08-26 12:41:07 INFO  ExecCommand:160 -  LH:artifacts:getArtifact FullPageScreensho
+2024-08-26 12:41:09 INFO  ExecCommand:160 -  LH:artifacts:getArtifact BFCacheFailure
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Analyzing and running audits..
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Uses HTTP
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Registers a service worker that controls page and `start_url
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Has a `<meta name="viewport">` tag with `width` or `initial-scale
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: First Contentful Pain
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Pain
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: First Meaningful Pain
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Speed Inde
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Screenshot Thumbnail
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Final Screensho
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Total Blocking Tim
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Max Potential First Input Dela
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Cumulative Layout Shif
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: No browser errors logged to the consol
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Initial server response time was shor
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Time to Interactiv
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: User Timing marks and measure
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Avoid chaining critical request
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Avoid multiple page redirect
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Web app manifest and service worker meet the installability requirement
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Configured for a custom splash scree
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Sets a theme color for the address bar
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Manifest has a maskable ico
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Content is sized correctly for the viewpor
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Displays images with correct aspect rati
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Serves images with appropriate resolutio
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Fonts with `font-display: optional` are preloade
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Avoids deprecated API
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Minimizes main-thread wor
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: JavaScript execution tim
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Preload key request
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Preconnect to required origin
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: All text remains visible during webfont load
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Diagnostic
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Network Request
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Network Round Trip Time
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Server Backend Latencie
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Task
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Metric
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Performance budge
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Timing budge
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Keep request counts low and transfer sizes smal
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Minimize third-party usag
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Lazy load third-party resources with facade
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Paint elemen
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Paint image was not lazily loade
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Avoid large layout shift
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Avoid long main-thread task
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Avoids `unload` event listener
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Avoid non-composited animation
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Image elements have explicit `width` and `height
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Page has valid source map
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Preload Largest Contentful Paint imag
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Ensure CSP is effective against XSS attack
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Script Treemap Dat
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Site works cross-browse
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Page transitions don't feel like they block on the networ
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Each page has a UR
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `[accesskey]` values are uniqu
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes match their role
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `button`, `link`, and `menuitem` elements have accessible name
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-hidden="true"]` is not present on the document `<body>
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-hidden="true"]` elements do not contain focusable descendent
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: ARIA input fields have accessible name
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `meter` elements have accessible name
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `progressbar` elements have accessible name
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `[role]`s have all required `[aria-*]` attribute
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Elements with an ARIA `[role]` that require children to contain a specific `[role]` have all required children
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `[role]`s are contained by their required parent elemen
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `[role]` values are vali
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: ARIA toggle fields have accessible name
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `tooltip` elements have accessible name
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `treeitem` elements have accessible name
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes have valid value
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes are valid and not misspelle
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Buttons have an accessible nam
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: The page contains a heading, skip link, or landmark regio
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Background and foreground colors have a sufficient contrast rati
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Definition list items are wrapped in `<dl>` element
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Document has a `<title>` elemen
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `[id]` attributes on active, focusable elements are uniqu
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: ARIA IDs are uniqu
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: No form fields have multiple label
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `<frame>` or `<iframe>` elements have a titl
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Heading elements appear in a sequentially-descending orde
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `<html>` element has a `[lang]` attribut
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `<html>` element has a valid value for its `[lang]` attribut
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Image elements have `[alt]` attribute
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `<input type="image">` elements have `[alt]` tex
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Form elements have associated label
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Links have a discernible nam
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`)
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: List items (`<li>`) are contained within `<ul>`, `<ol>` or `<menu>` parent element
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: The document does not use `<meta http-equiv="refresh">
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `[user-scalable="no"]` is not used in the `<meta name="viewport">` element and the `[maximum-scale]` attribute is not less than 5
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `<object>` elements have alternate tex
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: No element has a `[tabindex]` value greater than 
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `<th>` elements and elements with `[role="columnheader"/"rowheader"]` have data cells they describe
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `[lang]` attributes have a valid valu
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: `<video>` elements contain a `<track>` element with `[kind="captions"]
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Custom controls have associated label
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Custom controls have ARIA role
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: User focus is not accidentally trapped in a regio
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Interactive controls are keyboard focusabl
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Interactive elements indicate their purpose and stat
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: The page has a logical tab orde
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: The user's focus is directed to new content added to the pag
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Offscreen content is hidden from assistive technolog
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: HTML5 landmark elements are used to improve navigatio
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Visual order on the page follows DOM orde
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Uses efficient cache policy on static asset
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Avoids enormous network payload
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Defer offscreen image
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Eliminate render-blocking resource
+2024-08-26 12:41:11 INFO  ExecCommand:160 -  LH:status Auditing: Minify CS
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Minify JavaScrip
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Reduce unused CS
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Reduce unused JavaScrip
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Serve images in next-gen format
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Efficiently encode image
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Enable text compressio
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Properly size image
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Use video formats for animated conten
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Remove duplicate modules in JavaScript bundle
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Avoid serving legacy JavaScript to modern browser
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Page has the HTML doctyp
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Properly defines charse
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Avoids an excessive DOM siz
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Avoids requesting the geolocation permission on page loa
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: No issues in the `Issues` panel in Chrome Devtool
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Avoids `document.write()
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Detected JavaScript librarie
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Avoids requesting the notification permission on page loa
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Allows users to paste into input field
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Use HTTP/
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Uses passive listeners to improve scrolling performanc
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Document has a meta descriptio
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Page has successful HTTP status cod
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Document uses legible font size
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Links have descriptive tex
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Links are crawlabl
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Page isn’t blocked from indexin
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: robots.txt is vali
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Tap targets are sized appropriatel
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Document has a valid `hreflang
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Document avoids plugin
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Document has a valid `rel=canonical
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Structured data is vali
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Auditing: Page didn't prevent back/forward cache restoratio
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:status Generating results..
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:Printer json output written to C:\OldLappyData\Projects\UST360\Integration\FinalCodeBackup\DEXBackendKeyclockIntegration\reports\WKLandingPage.report.jso
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:Printer html output written to C:\OldLappyData\Projects\UST360\Integration\FinalCodeBackup\DEXBackendKeyclockIntegration\reports\WKLandingPage.report.htm
+2024-08-26 12:41:12 INFO  ExecCommand:160 -  LH:CLI Protip: Run lighthouse with `--view` to immediately open the HTML report in your browse
+2024-08-26 12:41:24 INFO  PageStatUtils:295 - WKLandingPage.report.json found,proceeding ingestion
+2024-08-26 12:42:50 INFO  PageStatUtils:263 - ChromeDriver Stopped Successfully
+2024-08-26 12:43:12 WARN  ExecCommand:111 - 10.1.1
+2024-08-26 12:43:14 WARN  ExecCommand:111 - ✨  Chrome debugging port: 9222
+2024-08-26 12:43:17 INFO  PageStatUtils:237 - Starting ChromeDriver
+2024-08-26 12:43:23 INFO  PageStatUtils:164 - USTLandingPage.report.json deleted existing file with same name
+2024-08-26 12:43:42 INFO  ExecCommand:160 -  LH:ChromeLauncher Found existing Chrome already running using port 9222, using that
+2024-08-26 12:43:55 INFO  ExecCommand:160 -  LH:status Connecting to browse
+2024-08-26 12:43:55 INFO  ExecCommand:160 -  LH:status Navigating to about:blan
+2024-08-26 12:43:55 INFO  ExecCommand:160 -  LH:status Benchmarking machin
+2024-08-26 12:43:56 INFO  ExecCommand:160 -  LH:status Preparing target for navigation mod
+2024-08-26 12:43:56 INFO  ExecCommand:160 -  LH:status Navigating to about:blan
+2024-08-26 12:43:56 INFO  ExecCommand:160 -  LH:status Preparing target for navigatio
+2024-08-26 12:43:56 INFO  ExecCommand:160 -  LH:status Cleaning origin dat
+2024-08-26 12:43:56 INFO  ExecCommand:160 -  LH:status Cleaning browser cach
+2024-08-26 12:43:56 INFO  ExecCommand:160 -  LH:status Preparing network condition
+2024-08-26 12:43:57 INFO  ExecCommand:160 -  LH:status Navigating to https://www.ust.com
+2024-08-26 12:44:08 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DevtoolsLo
+2024-08-26 12:44:08 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Trac
+2024-08-26 12:44:08 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DevtoolsLo
+2024-08-26 12:44:08 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Trac
+2024-08-26 12:44:08 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Accessibilit
+2024-08-26 12:44:10 INFO  ExecCommand:160 -  LH:artifacts:getArtifact AnchorElement
+2024-08-26 12:44:11 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ConsoleMessage
+2024-08-26 12:44:11 INFO  ExecCommand:160 -  LH:artifacts:getArtifact CSSUsag
+2024-08-26 12:44:16 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Doctyp
+2024-08-26 12:44:16 INFO  ExecCommand:160 -  LH:artifacts:getArtifact DOMStat
+2024-08-26 12:44:16 INFO  ExecCommand:160 -  LH:artifacts:getArtifact EmbeddedConten
+2024-08-26 12:44:16 INFO  ExecCommand:160 -  LH:artifacts:getArtifact FontSiz
+2024-08-26 12:44:17 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Input
+2024-08-26 12:44:17 INFO  ExecCommand:160 -  LH:artifacts:getArtifact GlobalListener
+2024-08-26 12:44:17 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ImageElement
+2024-08-26 12:44:24 INFO  ExecCommand:160 -  LH:ImageElements:warn Reached gathering budget of 5s. Skipped extra details for 22/2
+2024-08-26 12:44:24 INFO  ExecCommand:160 -  LH:artifacts:getArtifact InstallabilityError
+2024-08-26 12:44:24 INFO  ExecCommand:160 -  LH:status Get webapp installability error
+2024-08-26 12:44:24 INFO  ExecCommand:160 -  LH:artifacts:getArtifact InspectorIssue
+2024-08-26 12:44:24 INFO  ExecCommand:160 -  LH:artifacts:getArtifact JsUsag
+2024-08-26 12:44:24 INFO  ExecCommand:160 -  LH:artifacts:getArtifact LinkElement
+2024-08-26 12:44:24 INFO  ExecCommand:160 -  LH:artifacts:getArtifact MainDocumentConten
+2024-08-26 12:44:24 INFO  ExecCommand:160 -  LH:artifacts:getArtifact MetaElement
+2024-08-26 12:44:24 INFO  ExecCommand:160 -  LH:artifacts:getArtifact NetworkUserAgen
+2024-08-26 12:44:24 INFO  ExecCommand:160 -  LH:artifacts:getArtifact OptimizedImage
+2024-08-26 12:44:25 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ResponseCompressio
+2024-08-26 12:44:25 INFO  ExecCommand:160 -  LH:artifacts:getArtifact RobotsTx
+2024-08-26 12:44:25 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ServiceWorke
+2024-08-26 12:44:25 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Script
+2024-08-26 12:44:25 INFO  ExecCommand:160 -  LH:artifacts:getArtifact SourceMap
+2024-08-26 12:44:26 INFO  ExecCommand:160 -  LH:artifacts:getArtifact Stack
+2024-08-26 12:44:26 INFO  ExecCommand:160 -  LH:status Collect stack
+2024-08-26 12:44:26 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TagsBlockingFirstPain
+2024-08-26 12:44:26 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TapTarget
+2024-08-26 12:44:27 INFO  ExecCommand:160 -  LH:artifacts:getArtifact TraceElement
+2024-08-26 12:44:28 INFO  ExecCommand:160 -  LH:artifacts:getArtifact ViewportDimension
+2024-08-26 12:44:28 INFO  ExecCommand:160 -  LH:artifacts:getArtifact WebAppManifes
+2024-08-26 12:44:28 INFO  ExecCommand:160 -  LH:status Get webapp manifes
+2024-08-26 12:44:28 INFO  ExecCommand:160 -  LH:artifacts:getArtifact devtoolsLog
+2024-08-26 12:44:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact trace
+2024-08-26 12:44:29 INFO  ExecCommand:160 -  LH:artifacts:getArtifact FullPageScreensho
+2024-08-26 12:44:32 INFO  ExecCommand:160 -  LH:artifacts:getArtifact BFCacheFailure
+2024-08-26 12:44:33 INFO  ExecCommand:160 -  LH:status Analyzing and running audits..
+2024-08-26 12:44:33 INFO  ExecCommand:160 -  LH:status Auditing: Uses HTTP
+2024-08-26 12:44:33 INFO  ExecCommand:160 -  LH:status Auditing: Registers a service worker that controls page and `start_url
+2024-08-26 12:44:33 INFO  ExecCommand:160 -  LH:status Auditing: Has a `<meta name="viewport">` tag with `width` or `initial-scale
+2024-08-26 12:44:33 INFO  ExecCommand:160 -  LH:status Auditing: First Contentful Pain
+2024-08-26 12:44:33 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Pain
+2024-08-26 12:44:33 INFO  ExecCommand:160 -  LH:status Auditing: First Meaningful Pain
+2024-08-26 12:44:33 INFO  ExecCommand:160 -  LH:status Auditing: Speed Inde
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Screenshot Thumbnail
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Final Screensho
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Total Blocking Tim
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Max Potential First Input Dela
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Cumulative Layout Shif
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: No browser errors logged to the consol
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Initial server response time was shor
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Time to Interactiv
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: User Timing marks and measure
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Avoid chaining critical request
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Avoid multiple page redirect
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Web app manifest and service worker meet the installability requirement
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Configured for a custom splash scree
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Sets a theme color for the address bar
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Manifest has a maskable ico
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Content is sized correctly for the viewpor
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Displays images with correct aspect rati
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Serves images with appropriate resolutio
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Fonts with `font-display: optional` are preloade
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Avoids deprecated API
+2024-08-26 12:44:36 INFO  ExecCommand:160 -  LH:status Auditing: Minimizes main-thread wor
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: JavaScript execution tim
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Preload key request
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Preconnect to required origin
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: All text remains visible during webfont load
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Diagnostic
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Network Request
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Network Round Trip Time
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Server Backend Latencie
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Task
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Metric
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Performance budge
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Timing budge
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Keep request counts low and transfer sizes smal
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Minimize third-party usag
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Lazy load third-party resources with facade
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Paint elemen
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Largest Contentful Paint image was not lazily loade
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Avoid large layout shift
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Avoid long main-thread task
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Avoids `unload` event listener
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Avoid non-composited animation
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Image elements have explicit `width` and `height
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Page has valid source map
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Preload Largest Contentful Paint imag
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Ensure CSP is effective against XSS attack
+2024-08-26 12:44:37 INFO  ExecCommand:160 -  LH:status Auditing: Script Treemap Dat
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Site works cross-browse
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Page transitions don't feel like they block on the networ
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Each page has a UR
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `[accesskey]` values are uniqu
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes match their role
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `button`, `link`, and `menuitem` elements have accessible name
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-hidden="true"]` is not present on the document `<body>
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-hidden="true"]` elements do not contain focusable descendent
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: ARIA input fields have accessible name
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `meter` elements have accessible name
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `progressbar` elements have accessible name
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `[role]`s have all required `[aria-*]` attribute
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Elements with an ARIA `[role]` that require children to contain a specific `[role]` have all required children
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `[role]`s are contained by their required parent elemen
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `[role]` values are vali
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: ARIA toggle fields have accessible name
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `tooltip` elements have accessible name
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: ARIA `treeitem` elements have accessible name
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes have valid value
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `[aria-*]` attributes are valid and not misspelle
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Buttons have an accessible nam
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: The page contains a heading, skip link, or landmark regio
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Background and foreground colors have a sufficient contrast rati
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Definition list items are wrapped in `<dl>` element
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Document has a `<title>` elemen
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `[id]` attributes on active, focusable elements are uniqu
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: ARIA IDs are uniqu
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: No form fields have multiple label
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `<frame>` or `<iframe>` elements have a titl
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Heading elements appear in a sequentially-descending orde
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `<html>` element has a `[lang]` attribut
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `<html>` element has a valid value for its `[lang]` attribut
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Image elements have `[alt]` attribute
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `<input type="image">` elements have `[alt]` tex
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Form elements have associated label
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Links have a discernible nam
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`)
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: List items (`<li>`) are contained within `<ul>`, `<ol>` or `<menu>` parent element
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: The document does not use `<meta http-equiv="refresh">
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `[user-scalable="no"]` is not used in the `<meta name="viewport">` element and the `[maximum-scale]` attribute is not less than 5
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `<object>` elements have alternate tex
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: No element has a `[tabindex]` value greater than 
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `<th>` elements and elements with `[role="columnheader"/"rowheader"]` have data cells they describe
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `[lang]` attributes have a valid valu
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: `<video>` elements contain a `<track>` element with `[kind="captions"]
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Custom controls have associated label
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Custom controls have ARIA role
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: User focus is not accidentally trapped in a regio
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Interactive controls are keyboard focusabl
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Interactive elements indicate their purpose and stat
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: The page has a logical tab orde
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: The user's focus is directed to new content added to the pag
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Offscreen content is hidden from assistive technolog
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: HTML5 landmark elements are used to improve navigatio
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Visual order on the page follows DOM orde
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Uses efficient cache policy on static asset
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Avoids enormous network payload
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Defer offscreen image
+2024-08-26 12:44:38 INFO  ExecCommand:160 -  LH:status Auditing: Eliminate render-blocking resource
+2024-08-26 12:44:39 INFO  ExecCommand:160 -  LH:status Auditing: Minify CS
+2024-08-26 12:44:39 INFO  ExecCommand:160 -  LH:status Auditing: Minify JavaScrip
+2024-08-26 12:44:40 INFO  ExecCommand:160 -  LH:status Auditing: Reduce unused CS
+2024-08-26 12:44:40 INFO  ExecCommand:160 -  LH:status Auditing: Reduce unused JavaScrip
+2024-08-26 12:44:40 INFO  ExecCommand:160 -  LH:status Auditing: Serve images in next-gen format
+2024-08-26 12:44:40 INFO  ExecCommand:160 -  LH:status Auditing: Efficiently encode image
+2024-08-26 12:44:41 INFO  ExecCommand:160 -  LH:status Auditing: Enable text compressio
+2024-08-26 12:44:41 INFO  ExecCommand:160 -  LH:status Auditing: Properly size image
+2024-08-26 12:44:41 INFO  ExecCommand:160 -  LH:status Auditing: Use video formats for animated conten
+2024-08-26 12:44:41 INFO  ExecCommand:160 -  LH:status Auditing: Remove duplicate modules in JavaScript bundle
+2024-08-26 12:44:41 INFO  ExecCommand:160 -  LH:status Auditing: Avoid serving legacy JavaScript to modern browser
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Page has the HTML doctyp
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Properly defines charse
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Avoids an excessive DOM siz
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Avoids requesting the geolocation permission on page loa
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: No issues in the `Issues` panel in Chrome Devtool
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Avoids `document.write()
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Detected JavaScript librarie
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Avoids requesting the notification permission on page loa
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Allows users to paste into input field
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Use HTTP/
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Uses passive listeners to improve scrolling performanc
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Document has a meta descriptio
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Page has successful HTTP status cod
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Document uses legible font size
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Links have descriptive tex
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Links are crawlabl
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Page isn’t blocked from indexin
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: robots.txt is vali
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Tap targets are sized appropriatel
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Document has a valid `hreflang
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Document avoids plugin
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Document has a valid `rel=canonical
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Structured data is vali
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Auditing: Page didn't prevent back/forward cache restoratio
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:status Generating results..
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:Printer json output written to C:\OldLappyData\Projects\UST360\Integration\FinalCodeBackup\DEXBackendKeyclockIntegration\reports\USTLandingPage.report.jso
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:Printer html output written to C:\OldLappyData\Projects\UST360\Integration\FinalCodeBackup\DEXBackendKeyclockIntegration\reports\USTLandingPage.report.htm
+2024-08-26 12:44:42 INFO  ExecCommand:160 -  LH:CLI Protip: Run lighthouse with `--view` to immediately open the HTML report in your browse
+2024-08-26 12:45:07 INFO  PageStatUtils:295 - USTLandingPage.report.json found,proceeding ingestion
+2024-08-26 12:45:07 ERROR PageStatUtils:301 - Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:142)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:150)
+	at io.prometheus.client.exporter.HTTPServer.<init>(HTTPServer.java:379)
+	at io.prometheus.client.exporter.HTTPServer.<init>(HTTPServer.java:393)
+	at io.prometheus.client.exporter.HTTPServer.<init>(HTTPServer.java:400)
+	at com.dexbackend.dexbackend.pageanalyzer.utilities.ExportData.ingestToElasticSearch(ExportData.java:93)
+	at com.dexbackend.dexbackend.pageanalyzer.utilities.PageStatUtils.sendStatistics(PageStatUtils.java:296)
+	at com.dexbackend.dexbackend.pageanalyzer.controller.PageAnalyzerController.scanCurrentPage(PageAnalyzerController.java:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:145)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-08-26 12:45:19 ERROR PageAnalyzerController:199 - sleep interrupted
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at com.dexbackend.dexbackend.pageanalyzer.controller.PageAnalyzerController.scanCurrentPage(PageAnalyzerController.java:197)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:145)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-08-26 12:49:59 INFO  PageStatUtils:263 - ChromeDriver Stopped Successfully
+2024-08-26 12:49:59 INFO  PageStatUtils:263 - ChromeDriver Stopped Successfully
