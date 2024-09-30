@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="trace">
+	<Appenders>
+	<Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+      <LevelRangeFilter minLevel="WARN" maxLevel="WARN"
+				onMatch="DENY" onMismatch="NEUTRAL" />
+    </Console>
+		<RollingFile name="RollingFile"
+			fileName="/noskript/logs/dexbackend.log" filePattern="/noskript/logs/dexbackend-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss}{IST} [%t] %-5level %logger{36} - %msg%n" />
+			<LevelRangeFilter minLevel="WARN" maxLevel="WARN"
+				onMatch="DENY" onMismatch="NEUTRAL" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+				<SizeBasedTriggeringPolicy size="10 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="4" />
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="RollingFile" />
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>
