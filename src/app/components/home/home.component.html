@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="p-5 mt-3 bg-light rounded">
+        <h1>Welcome</h1>
+        <p class="lead">User Data From UI {{ userName }}</p>
+        <div>
+            <button (click)="getHelloText()">GET HELLO TEXT</button>
+        </div>
+        <div>
+            User Data From Backend {{ helloText }}
+        </div>
+
+        <li *ngIf="token" class="d-flex">
+            <a class="nav-link" (click)="logout()" style=color:#000000>Logout</a>
+        </li>
+
+    </div>
+</div>

@@ -1,0 +1,35 @@
+<div mat-dialog-title>
+    <img src="assets\images\App_Store.jfif" alt="Play Store">App Store
+</div>
+<mat-dialog-content class="mat-typography">
+    <div class="hero-content-right">
+        <form>
+            <div class="form-group">
+                <label for="appleId">Apple ID<span class="required-asterisk">*</span></label>
+                <input type="text" id="appleId" name="appleId" formControlName="appleId" placeholder="Apple ID" required title="Enter the application id from app store">    
+
+                <label for="userName">User Name<span class="required-asterisk">*</span></label>
+                <input type="text" id="userName" name="userName" formControlName="userName" placeholder="User Name" required title="Enter user name">    
+            </div>
+            <div class="form-group" style="margin-left: 40px;">
+                <label for="countryCode">Country Code<span class="required-asterisk">*</span></label>
+                <input type="text" id="countryCode" name="countryCode" formControlName="countryCode" placeholder="Country Code" required title="Enter the Country Code">    
+
+                <label for="languageCode">Language Code<span class="required-asterisk">*</span></label>
+                <input type="text" id="languageCode" name="languageCode" formControlName="languageCode" placeholder="Language Code" required title="Please enter the Language Code">    
+            </div> 
+            <div class="form-group">
+                <label for="device">Device<span class="required-asterisk">*</span></label>
+                <input type="text" id="device" name="device" formControlName="device" placeholder="Device" required title="Enter the Device">    
+            </div>  
+            <div class="form-group" style="margin-left: 40px;">
+                <label for="password">Password<span class="required-asterisk">*</span></label>
+                <input type="text" id="password" name="password" formControlName="password" placeholder="Password" required title="Enter the Password">    
+            </div>                    
+        </form>
+        <ngx-spinner bdColor="rgba(51, 51, 51, 0.8)" size="medium" color="#fff" type="ball-spin"></ngx-spinner>
+    </div>
+</mat-dialog-content>
+<mat-dialog-actions align="start">
+    <button class="scheduling-section-button">Save</button>
+</mat-dialog-actions>

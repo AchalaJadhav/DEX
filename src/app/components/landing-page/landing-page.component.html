@@ -1,0 +1,171 @@
+<!-- <div class="bg" [hidden]="DashboardVisible" [ngStyle]="{ 'background-color': backgroundColor, 'height': dynamicHeight }">
+    <img src="assets\images\USTLogo-White.png" class="companyLogo" [hidden]="DashboardVisible"> -->
+    <img src="assets\images\USTLogo-White.png" class="companyLogo" [hidden]="DashboardVisible">
+    <div class="bg" [hidden]="DashboardVisible">
+        <p title="{{ userName }}, click here to log out" style="cursor: pointer;" class="logout-info" (click)="logout()">
+                <!-- <mat-icon style="vertical-align: middle; margin-right: 5px;">account_box</mat-icon> -->
+                <a> {{ userName }} </a>
+        </p>
+        <div class="hero-wrapper">
+            <div class="hero-content">
+                <div class="hero-content-left">
+                    <h1>Digital Experience Dashboard</h1>
+                    <p>A unified platform that helps to improve your website every day by measuring and enhancing performance, accessibility, compliance, search engine traffic, and data privacy requirements to provide a delightful web experience.</p>
+                    <div class="sentimental-analysis-wrapper">
+                        <h3>User sentiment analytics</h3>
+                        <div class="sentimental-analysis-wrapper-button">
+                            <button (click)="openDialog()"><img src="assets\images\Play_Store.webp" alt="Play Store" class="store-image">Play store</button>
+                            <button (click)="openAppleDialog()" style="margin-left: 5%;"><img src="assets\images\App_Store.jfif" alt="App Store" class="store-image">App store</button>
+                        </div>
+                    </div>
+                    <div class="scheduling-section">
+                        <input class="custom-checkbox" type="checkbox" name="email-checkbox" id="email-checkbox" [(ngModel)]="isCheckedEmail">
+                        <label for="email-checkbox">Do you want the report to be e-mailed?</label>
+                        <div class="email-section" *ngIf="isCheckedEmail">
+                            <input type="text" placeholder="Enter Email">
+                        </div>
+                    </div>
+                    <div class="report-scheduling-section">
+                        <input class="custom-checkbox" type="checkbox" name="email-checkbox" id="email-checkbox" [(ngModel)]="isCheckedSchdule" >
+                        <label for="email-checkbox">Do you want the report to be scheduled?</label>
+                        <div *ngIf="isCheckedSchdule">
+                            <!-- <form #scheduleForm="ngForm">
+                                <label for="scheduleType">Schedule Type:</label>
+                                <select id="scheduleType" name="scheduleType" ngModel (change)="updateScheduleOptions()">
+                                    <option value="Daily">Daily</option>
+                                    <option value="Weekly">Weekly</option>
+                                    <option value="Monthly">Monthly</option>
+                                </select>
+                        
+                                <div *ngIf="scheduleType === 'Weekly'">
+                                    <label for="selectedDay">Select Day:</label>
+                                    <select id="selectedDay" name="selectedDay" ngModel>
+                                        <option value="Monday">Monday</option>
+                                        <option value="Tuesday">Tuesday</option>
+                                        <option value="Wednesday">Wednesday</option>
+                                        <option value="Thursday">Thursday</option>
+                                        <option value="Friday">Friday</option>
+                                        <option value="Saturday">Saturday</option>
+                                        <option value="Sunday">Sunday</option>
+                                    </select>
+                                </div>
+                        
+                                <div *ngIf="scheduleType === 'Monthly'">
+                                    <label for="selectedDay">Select Day:</label>
+                                    <select id="selectedDay" name="selectedDay" ngModel>
+                                        <option *ngFor="let day of daysInMonth" [value]="day">{{day}}</option>
+                                    </select>
+                                </div>
+                        
+                                <label for="scheduleTime">Schedule Time:</label>
+                                <select id="scheduleTime" name="scheduleTime" ngModel>
+                                    <option value="10:00 AM">10:00 AM</option>
+                                    <option value="02:00 PM">02:00 PM</option>
+                                    <option value="07:00 PM">07:00 PM</option>
+                                    <option value="12:00 AM">12:00 AM</option>
+                                </select>
+                        
+                                <button class="scheduling-section-button" type="button" (click)="submitForm(scheduleForm)">Submit</button>
+                            </form> -->
+                        </div>
+                        
+                    </div>
+                    <button class="scheduling-section-button" (click)="onSubmitClick()">Submit</button>
+                </div>
+                <div class="hero-content-right">
+                    <form [formGroup]="websiteDetailsForm">
+                        <div class="form-group">
+                            <label for="applicationName">Application Name<span class="required-asterisk">*</span></label>
+                            <input type="text" id="applicationName" name="applicationName" formControlName="applicationName" placeholder="Enter Application Name" required title="Enter the application name of the website you are scanning" [disabled]="isFieldDisabled('applicationName')">    
+    
+                            <label for="buildId">Build ID<span class="required-asterisk">*</span></label>
+                            <input type="text" id="buildId" name="buildId" formControlName="buildId" placeholder="Enter Build ID" required title="Enter a number as build id" [disabled]="isFieldDisabled('buildId')">    
+                        </div>
+                        <div class="form-group" style="margin-left: 40px;">
+                            <label for="url">URL<span class="required-asterisk">*</span></label>
+                            <input type="text" id="url" name="url" formControlName="url" placeholder="Enter URL" required title="Enter the website's url which you want to scan" [disabled]="isFieldDisabled('url')">    
+    
+                            <label for="pageTitle">Page Title<span class="required-asterisk">*</span></label>
+                            <input type="text" id="pageTitle" name="pageTitle" formControlName="pageTitle" placeholder="Enter Page Title" required title="Please enter the current page title which you want to scan" [disabled]="isFieldDisabled('pageTitle')">    
+                        </div>                    
+                        <label for="deviceType">Device Type<span class="required-asterisk">*</span></label>
+                        <div class="device-type">
+                            <input type="radio" id="Desktop" name="group1" checked [disabled]="isFieldDisabled('deviceType')" style="display: inline-block;">
+                            <label for="Desktop" style="display: inline-block;">Desktop</label>
+    
+                            <input type="radio" id="Mobile" name="group1" style="margin-left: 5%; display: inline-block;" [disabled]="isFieldDisabled('deviceType')">
+                            <label for="Mobile">Mobile</label>
+                        </div>
+    
+                        <div class="device-submit-button">
+                            <button *ngIf="!scanStarted" (click)="startBrowser()" (click)="enableDashboard()" [disabled]="websiteDetailsForm.invalid">Start Session</button>
+                            <button *ngIf="scanStarted" (click)="scanMultiplePage()" (click)="enableDashboard()">Scan Another Page</button>
+    
+                            <button style="margin-left: 1%;" (click)="startCrawling()">Scan Multiple Pages</button>
+                            <button style="margin-left: 1%;" (click)="showDashboard()">View Dashboard</button>
+                            <button style="margin-left: 1%;" (click)="onDownloadReport()" title="Click here to download ppt">Download Report</button>
+                            <button [hidden]="!dashboardEnabled" (click)="closeBrowser()">End Session</button>
+                        </div>
+                    </form>
+                    <ngx-spinner bdColor="rgba(51, 51, 51, 0.8)" size="medium" color="#fff" type="ball-spin"></ngx-spinner>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- <div [hidden]="!DashboardVisible" class="container-iframe">
+        <mat-icon class="back-button" (click)="showDashboard()">keyboard_backspace</mat-icon>
+        <iframe [src]="grafanaUrl" width="100%" height="100%"></iframe>
+    </div> -->
+    
+    
+    <!-- 
+         <form [formGroup]="schedulingForm">
+                                <div class="form-group">
+                                    <label for="schedule">Schedule<span class="required-asterisk">*</span></label>
+                                    <mat-select id="schedule" name="schedule" formControlName="schedule">
+                                        <mat-option value="monthly">Monthly</mat-option>
+                                        <mat-option value="weekly">Weekly</mat-option>
+                                        <mat-option value="daily">Daily</mat-option>
+                                    </mat-select>
+                            
+                                    <label for="selectTime">Select a time (UTC Timezone)<span class="required-asterisk">*</span></label>
+                                    <mat-select id="selectTime" name="selectTime" formControlName="selectTime">
+                                        <mat-option value="10am">10 am</mat-option>
+                                        <mat-option value="2pm">2 pm</mat-option>
+                                        <mat-option value="7pm">7 pm</mat-option>
+                                        <mat-option value="12am">12 am</mat-option>
+                                    </mat-select>
+                                </div>
+                                <div class="form-group" style="margin-left: 40px;">
+                                    <label for="startDate">Start Date<span class="required-asterisk">*</span></label>
+                                    <input matInput [matDatepicker]="startDatePicker" id="startDate" name="startDate" formControlName="startDate">
+                                    <mat-datepicker-toggle matSuffix [for]="startDatePicker"></mat-datepicker-toggle>
+                                    <mat-datepicker #startDatePicker></mat-datepicker>
+                            
+                                    <label for="endDate">End Date<span class="required-asterisk">*</span></label>
+                                    <input matInput [matDatepicker]="endDatePicker" id="endDate" name="endDate" formControlName="endDate">
+                                    <mat-datepicker-toggle matSuffix [for]="endDatePicker"></mat-datepicker-toggle>
+                                    <mat-datepicker #endDatePicker></mat-datepicker>
+                                </div>
+                            </form> -->
+    
+                        <!--    <form [formGroup]="schedulingForm">
+                                <div class="form-group">
+                                    <label for="schedule">Schedule<span class="required-asterisk">*</span></label>
+                                    <input type="text" id="schedule" name="schedule" formControlName="schedule">   
+                                    
+                                    <label for="selectTime">Select a time (UTC Timezone)<span class="required-asterisk">*</span></label>
+                                    <input type="text" id="selectTime" name="selectTime" formControlName="selectTime">  
+              
+                                </div>
+                                <div class="form-group" style="margin-left: 40px;">
+                                    
+                                    <label for="selectDay">Select Day<span class="required-asterisk">*</span></label>
+                                    <input type="text" id="selectDay" name="selectDay" formControlName="selectDay">      
+            
+                                    <label for="endDate">End Date<span class="required-asterisk">*</span></label>
+                                    <input type="text" id="endDate" name="endDate" formControlName="endDate">    
+                                </div>                    
+                            </form>
+     -->

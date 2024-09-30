@@ -1,0 +1,30 @@
+<div mat-dialog-title>
+    <img src="assets\images\Play_Store.webp" alt="Play Store">Play Store
+</div>
+<mat-dialog-content class="mat-typography">
+    <div class="hero-content-right">
+      <form [formGroup]="form">
+        <div class="form-group">
+          <label for="applicationId">Application ID<span class="required-asterisk">*</span></label>
+          <input type="text" id="applicationId" formControlName="applicationId" placeholder="Application ID" required>
+  
+          <label for="userName">User Name<span class="required-asterisk">*</span></label>
+          <input type="text" id="userName" formControlName="userName" placeholder="User Name" required>
+        </div>
+        <div class="form-group" style="margin-left: 40px;">
+          <label for="countryCode">Country Code<span class="required-asterisk">*</span></label>
+          <input type="text" id="countryCode" formControlName="countryCode" placeholder="Country Code" required>
+  
+          <label for="languageCode">Language Code<span class="required-asterisk">*</span></label>
+          <input type="text" id="languageCode" formControlName="languageCode" placeholder="Language Code" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password<span class="required-asterisk">*</span></label>
+          <input type="text" id="password" formControlName="password" placeholder="Password" required>
+        </div>
+        <button class="scheduling-section-button" type="submit" (click)="onSaveClick()">Save</button>
+
+      </form>
+      <ngx-spinner bdColor="rgba(51, 51, 51, 0.8)" size="medium" color="#fff" type="ball-spin"></ngx-spinner>
+    </div>
+</mat-dialog-content>
