@@ -3,8 +3,33 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiCredentials: {
+    username: 'Achala',
+    password: 'aaa',
+    url: 'http://localhost:8180/realms/noskript/protocol/openid-connect/token',
+    client_id: 'noskript',
+    realm: 'noskript',
+  },
 };
+
+/*
+apiCredentials: {
+    username: 'Achala',
+    password: 'aaa',
+    url: 'http://localhost:8180/realms/noskript/protocol/openid-connect/token',
+    client_id: 'noskript',
+  },
+
+
+apiCredentials: {
+    username: 'admin',
+    password: 'admin#123',
+    url: 'https://preprod.keycloak.noskript.com/realms/che/protocol/openid-connect/token',
+    client_id: 'noskript-public',
+  },
+  
+*/
 
 /*
  * For easier debugging in development mode, you can import the following file

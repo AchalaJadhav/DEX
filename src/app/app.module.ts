@@ -1,10 +1,10 @@
-import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { APP_INITIALIZER, CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { OAuthModule } from 'angular-oauth2-oidc';
 import { CrawlUrlComponent } from './components/crawl-url/crawl-url.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
@@ -27,6 +27,28 @@ import { MatIconModule } from '@angular/material/icon';
 import { PlayStoreSentimentDialogComponent } from './components/sa/play-store-sentiment-dialog/play-store-sentiment-dialog.component';
 import { AppStoreSentimentDialogComponent } from './components/sa/app-store-sentiment-dialog/app-store-sentiment-dialog.component';
 import { DownloadPptComponent } from './components/download-ppt/download-ppt.component';
+import { KeycloakAngularModule, KeycloakService } from 'keycloak-angular';
+import { environment } from 'src/environments/environment';
+import { KeycloakHttpInterceptor } from './services/keycloak-http.interceptor';
+
+const url = environment.apiCredentials.url;
+const clientId = environment.apiCredentials.client_id;
+const realm = environment.apiCredentials.realm;
+
+function initializeKeycloak(keycloak: KeycloakService) {
+  return () =>
+    keycloak.init({
+      config: {
+        url: 'http://localhost:8180/auth', // Ensure '/auth' is included
+        realm: 'noskript',
+        clientId: 'noskript'
+      },
+      initOptions: {
+        onLoad: 'login-required', // or 'check-sso' based on your use case
+        checkLoginIframe: false
+      }
+    });
+}
 
 @NgModule({
   declarations: [
@@ -60,9 +82,17 @@ import { DownloadPptComponent } from './components/download-ppt/download-ppt.com
     MatDialogModule,
     ReactiveFormsModule,
     FormsModule,
-    MatIconModule
+    MatIconModule,
+    KeycloakAngularModule
   ],
-  providers: [],
+  providers: [
+    { 
+      provide: HTTP_INTERCEPTORS, 
+      useClass: KeycloakHttpInterceptor, 
+      multi: true,
+      deps: [KeycloakService],
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

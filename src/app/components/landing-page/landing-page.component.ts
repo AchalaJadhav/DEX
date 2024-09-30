@@ -16,7 +16,6 @@ import { AppStoreSentimentDialogComponent } from '../sa/app-store-sentiment-dial
 import { FormDataService } from 'src/app/services/form-data.service';
 import { HttpClient } from '@angular/common/http';
 import { DownloadPptComponent } from '../download-ppt/download-ppt.component';
-import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-landing-page',
@@ -50,14 +49,14 @@ export class LandingPageComponent implements OnInit {
   formData: any;
   scheduleType = 'Daily';
   daysInMonth: number[] = Array.from({length: 31}, (_, i) => i + 1);
-  grafanaUrl!: SafeResourceUrl;
+
 
 
   constructor(private fb: FormBuilder, private apiService: ApiCallService, private router: Router, private spinner: NgxSpinnerService, 
               private toastr: ToastrService, private sharedDataService: SharedDataService, public configService: ConfigServiceService, 
               private crawlService: CrawlMultiplePagesService, private location: Location, public dialog: MatDialog,
               private oauthService: OAuthService, private userDetailsFromBackendService: UserDetailsFromBackendService,
-              private formDataService: FormDataService, private http: HttpClient, private sanitizer: DomSanitizer){}
+              private formDataService: FormDataService, private http: HttpClient){}
 
   ngOnInit(): void {
     this.websiteDetailsForm = this.fb.group({
@@ -247,8 +246,6 @@ export class LandingPageComponent implements OnInit {
 
   showDashboard() {
     // this.DashboardVisible = !this.DashboardVisible;  
-    // // Embed the URL for the Grafana dashboard here
-    // this.grafanaUrl = this.sanitizer.bypassSecurityTrustResourceUrl('http://localhost:8084/goto/aH9LM9gHR?orgId=1');
     window.location.href = 'http://localhost:8084/dashboards', '_blank';
   }
   
@@ -423,7 +420,7 @@ export class LandingPageComponent implements OnInit {
     };
     
     console.log("From Landing Page: " + JSON.stringify(this.formData, null, 2)); 
-    this.apiService.login('Achala', 'P@ssword123').subscribe(
+    this.apiService.login('admin', 'admin#123').subscribe(
       response => {
         const accessToken = "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJzNmU5QXpyd1BoN2FOYWlCQ2kyYWFkd2ljMENFZTFLLTBhU05PczdkenpZIn0.eyJleHAiOjE3MTg5MzQ5NzQsImlhdCI6MTcxODkzNDY3NCwiYXV0aF90aW1lIjoxNzE4OTM0Mzc3LCJqdGkiOiIxNGY5NWFjMC0xZjEzLTRkZTYtOGZiNS0zYTc1ZjRlYTA2MjUiLCJpc3MiOiJodHRwczovL2F1dGgudXN0LXFlLXBsYXRmb3JtLmNvbS9yZWFsbXMvY2hlIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImZlZGFjYmYzLTg0NzYtNDBkZS1iMWI1LTQwYTllNDllMTUyYiIsInR5cCI6IkJlYXJlciIsImF6cCI6Im5vc2tyaXB0Iiwibm9uY2UiOiJmNGVjMjQ2Mi1hZWRiLTRkMmUtOGJmOS02NWUwZDg2OWUyNzEiLCJzZXNzaW9uX3N0YXRlIjoiZmQ2YzdlYzgtYjM3OS00ZTI5LTk5NDAtM2YzMTliNDJiZWQ4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJEZXZlbG9wZXIiLCJkZWZhdWx0LXJvbGVzLWNoZSJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiJmZDZjN2VjOC1iMzc5LTRlMjktOTk0MC0zZjMxOWI0MmJlZDgiLCJUaW1lem9uZSI6IjM0IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJyb2xlIjpbIkRldmVsb3BlciIsImRlZmF1bHQtcm9sZXMtY2hlIl0sIlBsYXRmb3JtIjoiTm9za3JpcHQiLCJMaWNlbmNlRXhwaXJ5RGF0ZSI6IjIwMjUtMTItMzEiLCJuYW1lIjoiQWNoYWxhIEphZGhhdiBBY2hhbGEgSmFkaGF2IiwicHJlZmVycmVkX3VzZXJuYW1lIjoiYWNoYWxhIiwiTGljZW5jZVN0YXJ0RGF0ZSI6IjIwMjAtMDEtMDEiLCJnaXZlbl9uYW1lIjoiQWNoYWxhIEphZGhhdiIsImZhbWlseV9uYW1lIjoiQWNoYWxhIEphZGhhdiIsImVtYWlsIjoiYWNoYWxhLmphZGhhdkB1c3QuY29tIn0.Jc6CPKUIeI2jbeqzT6KzEJiApBfebe5IDAxbxELXG7KM_ShdgOCeEpawDhJ6w5CoJelm4lm_qwrgETakeDUiNY3cNiWy_x9JQJ0PN1Lh6f7REo8HX5dHnMVg11RhNfDzMGOINix_4aZmFLM_7YHohfayvtkv6z3eGNtJpEJ67aOVbjIeb29I8FpB-aiJ_2gqj8NKo6MgAp5LQQHaxIcgD9aWC4sAGfgkoEODMW5w3bsupk81x0AV8wxD6irxnljsO1cpymA0neCwnUuiVA0KEi8yfqZ-hr6iD1GkHhR4wGE5Tfim4Mj_qT2-Q0DT5fyeKZIO8DhTGSRpN1s_H8nVUw";
         console.log('Access token received:', accessToken);
@@ -450,12 +447,12 @@ export class LandingPageComponent implements OnInit {
 
     this.spinner.show();
 
-    this.apiService.login('Achala', 'aaa').subscribe(
-      response => {
-        const accessToken = response.access_token;
-        console.log('Access token received:', accessToken);
+    // this.apiService.loginCred().subscribe(
+    //   response => {
+    //     const accessToken = response.access_token;
+    //     console.log('Access token received:', accessToken);
 
-        this.apiService.sendWebsiteData(accessToken, this.websiteDetailsForm.value).subscribe(
+        this.apiService.sendWebsiteData(this.websiteDetailsForm.value).subscribe(
           res => {
             // this.toastr.info('Please enter your Page Title of webpage which is loaded in browser.', 'Information', { timeOut: 8000 });
             this.spinner.hide();
@@ -482,8 +479,7 @@ export class LandingPageComponent implements OnInit {
             this.initializeFlag = true;
           }
         }, 30000);
-      }
-    );
+      
   }
 
   startScan() {
@@ -506,12 +502,12 @@ export class LandingPageComponent implements OnInit {
     this.spinner.show();
     this.toastr.info('Analyzing your webpage!');
     
-    this.apiService.login('Achala', 'aaa').subscribe(
-      response => {
-        const accessToken = response.access_token;
-        console.log('Access token received:', accessToken);
+    // this.apiService.loginCred().subscribe(
+    //   response => {
+    //     const accessToken = response.access_token;
+    //     console.log('Access token received:', accessToken);
 
-        this.configService.scanPages(accessToken, this.jsonObject).subscribe(
+        this.configService.scanPages(this.jsonObject).subscribe(
           res => {
             this.spinner.hide();
             console.log(res);
@@ -534,8 +530,7 @@ export class LandingPageComponent implements OnInit {
             this.initializeFlag = true;
           }
         }, 40000);
-      }
-    );
+      
   }
 
   scanMultiplePage() {
@@ -551,12 +546,12 @@ export class LandingPageComponent implements OnInit {
     this.spinner.show();
     this.toastr.info('Analyzing your webpage!');
 
-    this.apiService.login('Achala', 'aaa').subscribe(
-      response => {
-        const accessToken = response.access_token;
-        console.log('Access token received:', accessToken);
+    // this.apiService.loginCred().subscribe(
+    //   response => {
+    //     const accessToken = response.access_token;
+    //     console.log('Access token received:', accessToken);
 
-        this.configService.scanPages(accessToken, this.jsonObject).subscribe(
+        this.configService.scanPages(this.jsonObject).subscribe(
           res => {
             this.spinner.hide();
             console.log(res);
@@ -579,8 +574,6 @@ export class LandingPageComponent implements OnInit {
             this.initializeFlag = true;
           }
         }, 40000);
-      }
-    );
   }
 
   startCrawling() {
@@ -591,7 +584,7 @@ export class LandingPageComponent implements OnInit {
     this.sharedDataService.myMap.set('buildId', this.websiteDetailsForm.value.buildId);
     this.sharedDataService.myMap.set('deviceType', this.websiteDetailsForm.value.deviceType);
     
-    this.apiService.login('Achala', 'aaa').subscribe(
+    this.apiService.loginCred().subscribe(
       response => {
         const accessToken = response.access_token;
         console.log('Access token received:', accessToken);
@@ -633,7 +626,7 @@ export class LandingPageComponent implements OnInit {
   }
 
   closeBrowser(): void{
-    this.apiService.login('Achala', 'aaa').subscribe(
+    this.apiService.loginCred().subscribe(
       response => {
         const accessToken = response.access_token;
         console.log('Access token received:', accessToken);
@@ -677,7 +670,7 @@ export class LandingPageComponent implements OnInit {
 
     this.spinner.show();
 
-    this.apiService.login('Achala', 'aaa').subscribe(
+    this.apiService.loginCred().subscribe(
         response => {
             const accessToken = response.access_token;
             console.log('Access token received:', accessToken);
@@ -706,20 +699,5 @@ export class LandingPageComponent implements OnInit {
     );
   }
 
-  updateScheduleOptions() {
-    // Logic to update schedule options if needed
-  }
-
-  submitForm(form: any) {
-    const formData = form.value;
-    const dataObject = {
-        email: formData.email,
-        scheduleType: formData.scheduleType,
-        selectedDay: formData.selectedDay,
-        scheduleTime: formData.scheduleTime,
-    };
-
-    console.log("Data Object:", dataObject);
-    // Use the data object as needed, such as sending it to your server or using it in your application
-  }
+  
 }

@@ -24,6 +24,8 @@
     "angular-oauth2-oidc": "^14.0.1",
     "angular-oauth2-oidc-jwks": "^17.0.2",
     "bootstrap": "^5.3.3",
+    "keycloak-angular": "^9.0.0",
+    "keycloak-js": "^18.0.0",
     "ngx-spinner": "^14.0.0",
     "ngx-toastr": "^14.2.0",
     "rxjs": "~7.5.0",

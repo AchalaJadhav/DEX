@@ -12,13 +12,15 @@ export class ConfigServiceService {
   constructor(private http: HttpClient, private oauthService: OAuthService) {}
   /* tslint:disable:typedef */
   
-  scanPages(accessToken: string, data: any) {
+  scanPages(data: any): Observable<any> {
     const headers = new HttpHeaders({
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${accessToken}`
-    }); 
-    return this.http.post<any>(`${this.REST_API_SERVER}/scanPage`,data, { headers });
+      'Content-Type': 'application/json'
+    });
+  
+    // No need to manually pass the accessToken here, as the interceptor will add it
+    return this.http.post<any>(`${this.REST_API_SERVER}/scanPage`, data, { headers });
   }
+  
 
   // sendPostRequest(accessToken: string, data: any) {
   //   const headers = new HttpHeaders({
